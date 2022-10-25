@@ -1,0 +1,24 @@
+[15-Oct-2022 04:56:47 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_CLI_Command' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/classes/class-backupwordpress-wp-cli-command.php:12
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/classes/class-backupwordpress-wp-cli-command.php on line 12
+[15-Oct-2022 04:57:24 America/Boise] PHP Fatal error:  Uncaught Error: Class 'HM\BackUpWordPress\Service' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/classes/class-email-service.php:10
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/classes/class-email-service.php on line 10
+[15-Oct-2022 05:00:03 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function HM\BackUpWordPress\is_multisite() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/classes/class-plugin.php:465
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/classes/class-plugin.php on line 465
+[15-Oct-2022 05:00:16 America/Boise] PHP Fatal error:  Uncaught Error: Class 'HM\BackUpWordPress\Requirements' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/classes/class-requirement.php:83
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/classes/class-requirement.php on line 83
+[15-Oct-2022 05:03:14 America/Boise] PHP Fatal error:  Uncaught Error: Class 'HM\BackUpWordPress\Service' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/classes/class-webhook-service.php:10
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/classes/class-webhook-service.php on line 10
+[15-Oct-2022 05:03:53 America/Boise] PHP Fatal error:  Uncaught Error: Class 'HM\BackUpWordPress\Webhook_Service' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/classes/class-wpremote-webhook-service.php:10
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/classes/class-wpremote-webhook-service.php on line 10

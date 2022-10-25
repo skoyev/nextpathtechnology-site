@@ -1,0 +1,120 @@
+[15-Oct-2022 03:28:32 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Posts_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php on line 17
+[15-Oct-2022 03:28:53 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Revisions_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 17
+[15-Oct-2022 03:29:26 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-block-renderer-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-block-renderer-controller.php on line 17
+[15-Oct-2022 03:29:51 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Posts_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-blocks-controller.php:20
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-blocks-controller.php on line 20
+[15-Oct-2022 03:30:16 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php on line 17
+[15-Oct-2022 03:31:01 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php on line 17
+[15-Oct-2022 03:31:41 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php on line 17
+[15-Oct-2022 03:31:58 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php on line 17
+[15-Oct-2022 03:32:28 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php on line 17
+[15-Oct-2022 03:32:38 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-search-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-search-controller.php on line 17
+[15-Oct-2022 03:33:07 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php on line 17
+[15-Oct-2022 03:33:12 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php on line 17
+[15-Oct-2022 03:33:45 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php on line 17
+[15-Oct-2022 03:34:08 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php on line 17
+[15-Oct-2022 03:34:25 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php on line 17
+[15-Oct-2022 04:42:02 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Posts_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php on line 17
+[15-Oct-2022 04:42:10 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Revisions_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 17
+[15-Oct-2022 04:42:18 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-block-renderer-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-block-renderer-controller.php on line 17
+[15-Oct-2022 04:42:26 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Posts_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-blocks-controller.php:20
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-blocks-controller.php on line 20
+[15-Oct-2022 04:42:44 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php on line 17
+[15-Oct-2022 04:43:21 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php on line 17
+[15-Oct-2022 04:43:28 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php on line 17
+[15-Oct-2022 04:44:03 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php on line 17
+[15-Oct-2022 04:44:21 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php on line 17
+[15-Oct-2022 04:44:25 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-search-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-search-controller.php on line 17
+[15-Oct-2022 04:44:34 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php on line 17
+[15-Oct-2022 04:44:43 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php on line 17
+[15-Oct-2022 04:44:54 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php on line 17
+[15-Oct-2022 04:45:26 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php on line 17
+[15-Oct-2022 04:45:39 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php on line 17

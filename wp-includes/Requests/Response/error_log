@@ -1,0 +1,8 @@
+[15-Oct-2022 02:46:59 America/Boise] PHP Fatal error:  Uncaught Error: Class 'Requests_Utility_CaseInsensitiveDictionary' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Response/Headers.php:13
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Response/Headers.php on line 13
+[15-Oct-2022 04:04:14 America/Boise] PHP Fatal error:  Uncaught Error: Class 'Requests_Utility_CaseInsensitiveDictionary' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Response/Headers.php:13
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Response/Headers.php on line 13

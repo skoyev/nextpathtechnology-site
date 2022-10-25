@@ -1,0 +1,4 @@
+[15-Oct-2022 04:16:24 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/mu-plugins/sso.php:59
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/mu-plugins/sso.php on line 59

@@ -1,0 +1,24 @@
+[15-Oct-2022 03:01:24 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/blocks/archives.php:147
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/blocks/archives.php on line 147
+[15-Oct-2022 03:02:09 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function register_block_type() in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/blocks/block.php:32
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/blocks/block.php on line 32
+[15-Oct-2022 03:02:19 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/blocks/categories.php:102
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/blocks/categories.php on line 102
+[15-Oct-2022 03:02:28 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function register_block_type() in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/blocks/latest-comments.php:150
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/blocks/latest-comments.php on line 150
+[15-Oct-2022 03:02:39 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/blocks/latest-posts.php:132
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/blocks/latest-posts.php on line 132
+[15-Oct-2022 03:03:06 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/blocks/shortcode.php:32
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/blocks/shortcode.php on line 32

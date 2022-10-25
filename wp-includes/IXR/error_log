@@ -1,0 +1,8 @@
+[15-Oct-2022 02:38:27 America/Boise] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[15-Oct-2022 02:40:02 America/Boise] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/IXR/class-IXR-introspectionserver.php on line 9

@@ -1,0 +1,32 @@
+[15-Oct-2022 03:34:34 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Meta_Fields' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/fields/class-wp-rest-comment-meta-fields.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/fields/class-wp-rest-comment-meta-fields.php on line 17
+[15-Oct-2022 03:34:55 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Meta_Fields' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/fields/class-wp-rest-post-meta-fields.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/fields/class-wp-rest-post-meta-fields.php on line 17
+[15-Oct-2022 03:35:23 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Meta_Fields' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/fields/class-wp-rest-term-meta-fields.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/fields/class-wp-rest-term-meta-fields.php on line 17
+[15-Oct-2022 03:35:52 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Meta_Fields' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/fields/class-wp-rest-user-meta-fields.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/fields/class-wp-rest-user-meta-fields.php on line 17
+[15-Oct-2022 04:46:18 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Meta_Fields' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/fields/class-wp-rest-comment-meta-fields.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/fields/class-wp-rest-comment-meta-fields.php on line 17
+[15-Oct-2022 04:46:48 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Meta_Fields' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/fields/class-wp-rest-post-meta-fields.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/fields/class-wp-rest-post-meta-fields.php on line 17
+[15-Oct-2022 04:47:02 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Meta_Fields' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/fields/class-wp-rest-term-meta-fields.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/fields/class-wp-rest-term-meta-fields.php on line 17
+[15-Oct-2022 04:47:05 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Meta_Fields' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/fields/class-wp-rest-user-meta-fields.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/fields/class-wp-rest-user-meta-fields.php on line 17

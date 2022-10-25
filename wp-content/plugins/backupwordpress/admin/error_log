@@ -1,0 +1,64 @@
+[15-Oct-2022 04:51:11 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function HM\BackUpWordPress\add_action() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/actions.php:25
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/actions.php on line 25
+[15-Oct-2022 04:51:14 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function HM\BackUpWordPress\backups_number() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/backups-table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/backups-table.php on line 13
+[15-Oct-2022 04:51:15 America/Boise] PHP Fatal error:  Uncaught Error: Class 'HM\BackUpWordPress\Schedules' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/backups.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/backups.php on line 6
+[15-Oct-2022 04:51:32 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function HM\BackUpWordPress\__() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/constants.php:9
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/constants.php on line 9
+[15-Oct-2022 04:51:38 America/Boise] PHP Warning:  Use of undefined constant HMBKP_PLUGIN_PATH - assumed 'HMBKP_PLUGIN_PATH' (this will throw an Error in a future version of PHP) in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/enable-support.php on line 1
+[15-Oct-2022 04:51:38 America/Boise] PHP Warning:  require_once(HMBKP_PLUGIN_PATHclasses/class-requirements.php): failed to open stream: No such file or directory in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/enable-support.php on line 1
+[15-Oct-2022 04:51:38 America/Boise] PHP Fatal error:  require_once(): Failed opening required 'HMBKP_PLUGIN_PATHclasses/class-requirements.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/enable-support.php on line 1
+[15-Oct-2022 04:52:01 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function HM\BackUpWordPress\esc_url() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/extensions.php:7
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/extensions.php on line 7
+[15-Oct-2022 04:52:29 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/faq.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/faq.php on line 2
+[15-Oct-2022 04:52:40 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function request_filesystem_credentials() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/filesystem-credentials.php:7
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/filesystem-credentials.php on line 7
+[15-Oct-2022 04:53:00 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function HM\BackUpWordPress\add_action() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/menu.php:20
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/menu.php on line 20
+[15-Oct-2022 04:53:24 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function HM\BackUpWordPress\has_server_permissions() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/page.php on line 15
+[15-Oct-2022 04:53:31 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function get_excludes() on null in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/schedule-form-excludes.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/schedule-form-excludes.php on line 5
+[15-Oct-2022 04:53:45 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function HM\BackUpWordPress\esc_html_e() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/schedule-form.php:7
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/schedule-form.php on line 7
+[15-Oct-2022 04:54:07 America/Boise] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to HM\BackUpWordPress\get_site_size_text() must be an instance of HM\BackUpWordPress\Scheduled_Backup, null given, called in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/schedule-sentence.php on line 5 and defined in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/schedule-sentence.php:150
+Stack trace:
+#0 /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/schedule-sentence.php(5): HM\BackUpWordPress\get_site_size_text(NULL)
+#1 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/schedule-sentence.php on line 150
+[15-Oct-2022 04:54:21 America/Boise] PHP Fatal error:  Uncaught Error: Class 'HM\BackUpWordPress\Schedules' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/schedule-settings.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/schedule-settings.php on line 5
+[15-Oct-2022 04:54:29 America/Boise] PHP Fatal error:  Uncaught Error: Class 'HM\BackUpWordPress\Requirements' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/server-info.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/server-info.php on line 3
+[15-Oct-2022 04:54:33 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function HM\BackUpWordPress\__() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/upsell.php:7
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/admin/upsell.php on line 7

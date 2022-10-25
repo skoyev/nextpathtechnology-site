@@ -1,0 +1,8 @@
+[15-Oct-2022 05:17:30 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function bloginfo() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/pages/coming-soon.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/pages/coming-soon.php on line 5
+[15-Oct-2022 05:17:39 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_title_for_query() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/pages/theme-preview.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/pages/theme-preview.php on line 5

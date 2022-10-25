@@ -1,0 +1,4 @@
+[15-Oct-2022 02:52:40 America/Boise] PHP Fatal error:  Uncaught Error: Class 'SimplePie' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/SimplePie/Core.php:54
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/SimplePie/Core.php on line 54

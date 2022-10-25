@@ -1,0 +1,36 @@
+[15-Oct-2022 03:36:57 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/theme-compat/comments.php:9
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/theme-compat/comments.php on line 9
+[15-Oct-2022 03:37:25 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/theme-compat/embed-404.php:14
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/theme-compat/embed-404.php on line 14
+[15-Oct-2022 03:37:38 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function post_class() in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/theme-compat/embed-content.php:13
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/theme-compat/embed-content.php on line 13
+[15-Oct-2022 03:37:59 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/theme-compat/embed.php on line 13
+[15-Oct-2022 03:38:18 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function do_action() in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/theme-compat/footer-embed.php:18
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/theme-compat/footer-embed.php on line 18
+[15-Oct-2022 03:38:23 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/theme-compat/footer.php:9
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/theme-compat/footer.php on line 9
+[15-Oct-2022 03:38:32 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/theme-compat/header-embed.php:19
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/theme-compat/header-embed.php on line 19
+[15-Oct-2022 03:38:55 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/theme-compat/header.php:9
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/theme-compat/header.php on line 9
+[15-Oct-2022 03:39:40 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/theme-compat/sidebar.php:9
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/theme-compat/sidebar.php on line 9

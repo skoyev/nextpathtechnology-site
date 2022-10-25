@@ -1,0 +1,56 @@
+[15-Oct-2022 02:33:37 America/Boise] PHP Fatal error:  Uncaught Error: Class 'getid3_lib' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.audio-video.asf.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.audio-video.asf.php on line 17
+[15-Oct-2022 02:33:49 America/Boise] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.audio-video.flv.php:76
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.audio-video.flv.php on line 76
+[15-Oct-2022 02:34:01 America/Boise] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.audio-video.matroska.php:216
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.audio-video.matroska.php on line 216
+[15-Oct-2022 02:34:27 America/Boise] PHP Fatal error:  Uncaught Error: Class 'getid3_lib' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.audio-video.quicktime.php:18
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.audio-video.quicktime.php on line 18
+[15-Oct-2022 02:34:32 America/Boise] PHP Fatal error:  Uncaught Error: Class 'getid3_lib' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.audio-video.riff.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.audio-video.riff.php on line 26
+[15-Oct-2022 02:34:47 America/Boise] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.audio.ac3.php on line 18
+[15-Oct-2022 02:34:50 America/Boise] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.audio.dts.php:21
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.audio.dts.php on line 21
+[15-Oct-2022 02:35:30 America/Boise] PHP Fatal error:  Uncaught Error: Class 'getid3_lib' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.audio.flac.php:18
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.audio.flac.php on line 18
+[15-Oct-2022 02:36:00 America/Boise] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.audio.mp3.php:25
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.audio.mp3.php on line 25
+[15-Oct-2022 02:36:32 America/Boise] PHP Fatal error:  Uncaught Error: Class 'getid3_lib' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.audio.ogg.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.audio.ogg.php on line 17
+[15-Oct-2022 02:36:38 America/Boise] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.tag.apetag.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.tag.apetag.php on line 17
+[15-Oct-2022 02:36:56 America/Boise] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.tag.id3v1.php:18
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.tag.id3v1.php on line 18
+[15-Oct-2022 02:37:10 America/Boise] PHP Fatal error:  Uncaught Error: Class 'getid3_lib' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.tag.id3v2.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.tag.id3v2.php on line 17
+[15-Oct-2022 02:37:37 America/Boise] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.tag.lyrics3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/ID3/module.tag.lyrics3.php on line 18

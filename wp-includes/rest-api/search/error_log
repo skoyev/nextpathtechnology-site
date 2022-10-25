@@ -1,0 +1,8 @@
+[15-Oct-2022 03:36:01 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Search_Handler' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/search/class-wp-rest-post-search-handler.php:15
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/search/class-wp-rest-post-search-handler.php on line 15
+[15-Oct-2022 04:47:34 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Search_Handler' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/search/class-wp-rest-post-search-handler.php:15
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/rest-api/search/class-wp-rest-post-search-handler.php on line 15

@@ -1,0 +1,16 @@
+[15-Oct-2022 02:43:40 America/Boise] PHP Fatal error:  Uncaught Error: Class 'Requests_Exception' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Exception/HTTP.php:13
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Exception/HTTP.php on line 13
+[15-Oct-2022 02:43:58 America/Boise] PHP Fatal error:  Uncaught Error: Class 'Requests_Exception' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Exception/Transport.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Exception/Transport.php on line 3
+[15-Oct-2022 03:48:14 America/Boise] PHP Fatal error:  Uncaught Error: Class 'Requests_Exception' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Exception/HTTP.php:13
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Exception/HTTP.php on line 13
+[15-Oct-2022 04:01:17 America/Boise] PHP Fatal error:  Uncaught Error: Class 'Requests_Exception' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Exception/Transport.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Exception/Transport.php on line 3

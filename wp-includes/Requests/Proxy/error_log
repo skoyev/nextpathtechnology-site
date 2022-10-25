@@ -1,0 +1,8 @@
+[15-Oct-2022 02:46:33 America/Boise] PHP Fatal error:  Uncaught Error: Interface 'Requests_Proxy' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Proxy/HTTP.php:19
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Proxy/HTTP.php on line 19
+[15-Oct-2022 04:03:01 America/Boise] PHP Fatal error:  Uncaught Error: Interface 'Requests_Proxy' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Proxy/HTTP.php:19
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Proxy/HTTP.php on line 19

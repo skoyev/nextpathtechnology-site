@@ -1,0 +1,4 @@
+[15-Oct-2022 04:56:30 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_dir_path() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/backupwordpress.php:38
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/backupwordpress.php on line 38

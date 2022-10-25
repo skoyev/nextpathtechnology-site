@@ -1,0 +1,8 @@
+[15-Oct-2022 05:04:11 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function HM\BackUpWordPress\add_action() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/functions/core.php:336
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/functions/core.php on line 336
+[15-Oct-2022 05:04:34 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function HM\BackUpWordPress\add_action() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/functions/interface.php:151
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/backupwordpress/functions/interface.php on line 151

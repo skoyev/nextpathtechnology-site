@@ -1,0 +1,4 @@
+[15-Oct-2022 05:07:36 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/bootstrap.php:15
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/bootstrap.php on line 15

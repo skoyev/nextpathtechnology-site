@@ -1,0 +1,4 @@
+[15-Oct-2022 04:02:24 America/Boise] PHP Fatal error:  Uncaught Error: Class 'Requests_Exception_Transport' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Exception/Transport/cURL.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Exception/Transport/cURL.php on line 3

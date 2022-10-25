@@ -1,0 +1,62 @@
+[15-Oct-2022 05:11:06 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/admin-page-notifications-blocker.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/admin-page-notifications-blocker.php on line 6
+[15-Oct-2022 05:11:43 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/admin.php:47
+Stack trace:
+#0 /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/admin.php(37): Bluehost\WP\Admin_App\Init->primary_init()
+#1 /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/admin.php(93): Bluehost\WP\Admin_App\Init::return_instance()
+#2 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/admin.php on line 47
+[15-Oct-2022 05:11:52 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/base.php:69
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/base.php on line 69
+[15-Oct-2022 05:12:51 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/coming-soon.php:24
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/coming-soon.php on line 24
+[15-Oct-2022 05:13:24 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/jetpack.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/jetpack.php on line 17
+[15-Oct-2022 05:13:38 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/menu.php:12
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/menu.php on line 12
+[15-Oct-2022 05:13:50 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/mojo-themes.php:34
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/mojo-themes.php on line 34
+[15-Oct-2022 05:14:29 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/partners.php:14
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/partners.php on line 14
+[15-Oct-2022 05:14:47 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/performance.php:32
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/performance.php on line 32
+[15-Oct-2022 05:16:00 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/plugin-search.php:9
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/plugin-search.php on line 9
+[15-Oct-2022 05:16:13 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/shortcode-generator.php:114
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/shortcode-generator.php on line 114
+[15-Oct-2022 05:16:23 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/styles.php on line 18
+[15-Oct-2022 05:16:34 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/track-last-login.php:8
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/track-last-login.php on line 8
+[15-Oct-2022 05:17:03 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/updates.php:91
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/updates.php on line 91
+[15-Oct-2022 05:17:22 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/user-experience-tracking.php:68
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-content/plugins/bluehost-wordpress-plugin/inc/user-experience-tracking.php on line 68

@@ -1,0 +1,32 @@
+[15-Oct-2022 02:51:14 America/Boise] PHP Fatal error:  Uncaught Error: Interface 'SimplePie_Cache_Base' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/SimplePie/Cache/DB.php:51
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/SimplePie/Cache/DB.php on line 51
+[15-Oct-2022 02:51:26 America/Boise] PHP Fatal error:  Uncaught Error: Interface 'SimplePie_Cache_Base' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/SimplePie/Cache/File.php:51
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/SimplePie/Cache/File.php on line 51
+[15-Oct-2022 02:51:30 America/Boise] PHP Fatal error:  Uncaught Error: Interface 'SimplePie_Cache_Base' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/SimplePie/Cache/Memcache.php:58
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/SimplePie/Cache/Memcache.php on line 58
+[15-Oct-2022 02:51:45 America/Boise] PHP Fatal error:  Uncaught Error: Class 'SimplePie_Cache_DB' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/SimplePie/Cache/MySQL.php:57
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/SimplePie/Cache/MySQL.php on line 57
+[15-Oct-2022 04:07:15 America/Boise] PHP Fatal error:  Uncaught Error: Interface 'SimplePie_Cache_Base' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/SimplePie/Cache/DB.php:51
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/SimplePie/Cache/DB.php on line 51
+[15-Oct-2022 04:07:37 America/Boise] PHP Fatal error:  Uncaught Error: Interface 'SimplePie_Cache_Base' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/SimplePie/Cache/File.php:51
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/SimplePie/Cache/File.php on line 51
+[15-Oct-2022 04:07:48 America/Boise] PHP Fatal error:  Uncaught Error: Interface 'SimplePie_Cache_Base' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/SimplePie/Cache/Memcache.php:58
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/SimplePie/Cache/Memcache.php on line 58
+[15-Oct-2022 04:08:30 America/Boise] PHP Fatal error:  Uncaught Error: Class 'SimplePie_Cache_DB' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/SimplePie/Cache/MySQL.php:57
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/SimplePie/Cache/MySQL.php on line 57

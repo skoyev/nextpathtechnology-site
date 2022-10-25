@@ -1,0 +1,4 @@
+[15-Oct-2022 02:44:29 America/Boise] PHP Fatal error:  Uncaught Error: Interface 'Requests_Hooker' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Hooks.php:15
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Hooks.php on line 15

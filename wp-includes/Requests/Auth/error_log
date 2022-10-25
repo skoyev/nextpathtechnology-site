@@ -1,0 +1,8 @@
+[15-Oct-2022 02:42:48 America/Boise] PHP Fatal error:  Uncaught Error: Interface 'Requests_Auth' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Auth/Basic.php:18
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Auth/Basic.php on line 18
+[15-Oct-2022 03:46:33 America/Boise] PHP Fatal error:  Uncaught Error: Interface 'Requests_Auth' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Auth/Basic.php:18
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Auth/Basic.php on line 18

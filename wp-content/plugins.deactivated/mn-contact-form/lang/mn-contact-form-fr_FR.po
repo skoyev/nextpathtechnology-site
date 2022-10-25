@@ -1,0 +1,283 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mn-contact-form\n"
+"POT-Creation-Date: 2014-06-19 03:37+0530\n"
+"PO-Revision-Date: 2014-06-19 03:40+0530\n"
+"Last-Translator: MN Themes <supporr@mnthemes.com>\n"
+"Language-Team: mnthemes <support@mnthemes.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../mn-contact-form.php:264
+msgid "MN Contact Form Settings"
+msgstr "MN préférences formulaire"
+
+#: ../mn-contact-form.php:266
+msgid "Use Shortcode"
+msgstr "Utilisez Shortcode"
+
+#: ../mn-contact-form.php:266
+msgid "to embed it into your page/post or use the Wordpress widget"
+msgstr "à intégrer dans votre page ou utiliser le widget Wordpress "
+
+#: ../mn-contact-form.php:266
+msgid "to embed it to any sidebar region"
+msgstr "pour l'intégrer dans n'importe quelle région de la barre latérale"
+
+#: ../mn-contact-form.php:279
+msgid "Contact Form To Email"
+msgstr "Formulaire de contact Pour envoyer"
+
+#: ../mn-contact-form.php:287
+msgid "Captcha"
+msgstr "Captcha"
+
+#: ../mn-contact-form.php:291 ../mn-contact-form.php:305
+msgid "Enable"
+msgstr "permettre"
+
+#: ../mn-contact-form.php:293 ../mn-contact-form.php:307
+msgid "Disable"
+msgstr "désactiver"
+
+#: ../mn-contact-form.php:301
+msgid "Reply Mail"
+msgstr "Correspondance-réponse d'"
+
+#: ../mn-contact-form.php:315
+msgid "Hello [Contact Name]"
+msgstr "Bonjour [Nom du contact]"
+
+#: ../mn-contact-form.php:327
+msgid "Do you want to save Form Submitted data"
+msgstr "Voulez-vous sauver le formulaire Soumettre les données "
+
+#: ../mn-contact-form.php:331
+msgid "Yes"
+msgstr "oui"
+
+#: ../mn-contact-form.php:333
+msgid "No"
+msgstr "pas"
+
+#: ../mn-contact-form.php:341
+msgid "Form Style"
+msgstr "Formulaire de style"
+
+#: ../mn-contact-form.php:347
+msgid "Default"
+msgstr "Par défaut"
+
+#: ../mn-contact-form.php:349
+msgid "Style 1"
+msgstr "Style 1"
+
+#: ../mn-contact-form.php:351
+msgid "Style 2"
+msgstr "Style 2"
+
+#: ../mn-contact-form.php:353
+msgid "Style 3 [Responsive]"
+msgstr "Style 3 [Responsive]"
+
+#: ../mn-contact-form.php:355
+msgid "Style 4 [Responsive]"
+msgstr "Style 4 [Responsive]"
+
+#: ../mn-contact-form.php:359
+msgid ""
+"N.B.- This style options will not affect on sidebar form style. This is for "
+"pages only using through shortcode"
+msgstr ""
+"NB-Cette option de style n'affecteront pas sur la forme encadré section. "
+"C'est pour les pages en utilisant uniquement par shortcode"
+
+#: ../mn-contact-form.php:380
+msgid "Support / Manual / Upgradation"
+msgstr "Support / Manuel / Upgradation"
+
+#: ../mn-contact-form.php:382
+msgid ""
+"For any suggestion / query / issue / requirement, please feel free to drop "
+"an email to"
+msgstr ""
+"Pour toute suggestion / requête / question / exigence, s'il vous plaît "
+"n'hésitez à envoyer un email à"
+
+#: ../mn-contact-form.php:383 ../mn-contact-form.php:384
+#: ../mn-contact-form.php:385
+msgid "Get the"
+msgstr "Obtenez le"
+
+#: ../mn-contact-form.php:383
+msgid "Lite Manual here"
+msgstr "Manuel Lite ici"
+
+#: ../mn-contact-form.php:384
+msgid "PRO Version here"
+msgstr "PRO version ici"
+
+#: ../mn-contact-form.php:384
+msgid "for more advanced features"
+msgstr "des fonctionnalités plus avancées"
+
+#: ../mn-contact-form.php:385
+msgid "PRO Manual here"
+msgstr "PRO Manuel ici"
+
+#: ../mn-contact-form.php:385
+msgid "for a complete list of features"
+msgstr "pour une liste complète des fonctionnalités"
+
+#: ../mn-contact-form.php:389
+msgid "Review / Donation"
+msgstr "Revue / Donation"
+
+#: ../mn-contact-form.php:392
+msgid "Please feel free to add your reviews on"
+msgstr "S'il vous plaît n'hésitez pas à ajouter vos commentaires sur"
+
+#: ../mn-contact-form.php:396
+msgid ""
+"There has been a lot of effort put behind the development of this plugin. "
+"Please consider donating towards this plugin development."
+msgstr ""
+"Il ya eu beaucoup d'efforts mis derrière le développement de ce plugin. S'il "
+"vous plaît envisager de faire don à ce développement de plugin."
+
+#: ../mn-contact-form.php:398
+msgid "Amount"
+msgstr "montant"
+
+#: ../mn-contact-form.php:464
+msgid "Submitted Form Data"
+msgstr "Soumis Formulaire de données"
+
+#: ../mn-contact-form.php:478 ../mn-contact-form.php:540
+msgid "ID"
+msgstr "ID"
+
+#: ../mn-contact-form.php:480 ../mn-contact-form.php:542
+#: ../mn-contact-form.php:609 ../mn-contact-form.php:645
+#: ../mn-contact-form.php:684 ../mn-contact-form.php:726
+#: ../mn-contact-form.php:775 ../mn-contact-form.php:844
+msgid "Name"
+msgstr "nom"
+
+#: ../mn-contact-form.php:482 ../mn-contact-form.php:544
+#: ../mn-contact-form.php:613 ../mn-contact-form.php:649
+#: ../mn-contact-form.php:688 ../mn-contact-form.php:779
+#: ../mn-contact-form.php:848
+msgid "Email"
+msgstr "Email"
+
+#: ../mn-contact-form.php:484 ../mn-contact-form.php:546
+#: ../mn-contact-form.php:617 ../mn-contact-form.php:653
+#: ../mn-contact-form.php:692 ../mn-contact-form.php:743
+#: ../mn-contact-form.php:783 ../mn-contact-form.php:852
+msgid "Message"
+msgstr "Message"
+
+#: ../mn-contact-form.php:486 ../mn-contact-form.php:548
+msgid "IP"
+msgstr "IP"
+
+#: ../mn-contact-form.php:488 ../mn-contact-form.php:550
+msgid "Browser"
+msgstr "navigateur"
+
+#: ../mn-contact-form.php:490 ../mn-contact-form.php:552
+msgid "Date"
+msgstr "date"
+
+#: ../mn-contact-form.php:492 ../mn-contact-form.php:554
+msgid "Action"
+msgstr "Action"
+
+#: ../mn-contact-form.php:610 ../mn-contact-form.php:776
+#: ../mn-contact-form.php:845
+msgid "Enter Your Name"
+msgstr "Entrez votre nom"
+
+#: ../mn-contact-form.php:614 ../mn-contact-form.php:780
+#: ../mn-contact-form.php:849
+msgid "Enter Your Email"
+msgstr "Entrez votre e-mail"
+
+#: ../mn-contact-form.php:618 ../mn-contact-form.php:784
+#: ../mn-contact-form.php:853
+msgid "Enter Your Message"
+msgstr "Entrez votre message"
+
+#: ../mn-contact-form.php:624 ../mn-contact-form.php:859
+msgid "Write Your answer"
+msgstr "Rédigez votre réponse"
+
+#: ../mn-contact-form.php:625 ../mn-contact-form.php:791
+#: ../mn-contact-form.php:860
+msgid "Math Captcha"
+msgstr "Math Captcha"
+
+#: ../mn-contact-form.php:634 ../mn-contact-form.php:798
+#: ../mn-contact-form.php:868
+msgid "Send"
+msgstr "envoyer"
+
+#: ../mn-contact-form.php:635 ../mn-contact-form.php:670
+#: ../mn-contact-form.php:709 ../mn-contact-form.php:763
+#: ../mn-contact-form.php:799 ../mn-contact-form.php:869
+msgid "Reset"
+msgstr "remettre"
+
+#: ../mn-contact-form.php:661 ../mn-contact-form.php:701
+msgid "Math Captcha Ans"
+msgstr "Math Captcha Ans"
+
+#: ../mn-contact-form.php:671 ../mn-contact-form.php:710
+#: ../mn-contact-form.php:764
+msgid "Submit"
+msgstr "soumettre"
+
+#: ../mn-contact-form.php:735
+msgid "Email Address"
+msgstr "Adresse e-mail"
+
+#: ../mn-contact-form.php:754
+msgid "Math Captcha Answer"
+msgstr "Math Captcha réponse"
+
+#: ../mn-contact-form.php:790
+msgid "Write your answer"
+msgstr "Ecrivez votre réponse"
+
+#: ../mn-contact-form.php:1032
+msgid "Thank you for installing MN Contact Form"
+msgstr "Merci d'avoir installé MN Formulaire de contact"
+
+#: ../mn-contact-form.php:1034
+msgid "Dear Site Admin"
+msgstr "Cher Site Admin"
+
+#: ../mn-contact-form.php:1036
+msgid ""
+"Thank your for installing MN Contact Form.  Please visit this plugin's site "
+"at http://mnthemes.com/plugins/mncontacts for more info."
+msgstr ""
+"Merci de votre installation pour MN formulaire de contact. S'il vous plaît "
+"visitez le site de ce plugin à http://mnthemes.com/plugins/mncontacts pour "
+"plus d'informations."
+
+#: ../mn-contact-form.php:1038
+msgid "All the best"
+msgstr "Tous les meilleurs"
+
+#~ msgid "None"
+#~ msgstr "aucun"

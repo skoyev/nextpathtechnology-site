@@ -1,0 +1,16 @@
+[15-Oct-2022 02:48:42 America/Boise] PHP Fatal error:  Uncaught Error: Interface 'Requests_Transport' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Transport/cURL.php:15
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Transport/cURL.php on line 15
+[15-Oct-2022 02:48:51 America/Boise] PHP Fatal error:  Uncaught Error: Interface 'Requests_Transport' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Transport/fsockopen.php:15
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Transport/fsockopen.php on line 15
+[15-Oct-2022 04:04:48 America/Boise] PHP Fatal error:  Uncaught Error: Interface 'Requests_Transport' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Transport/cURL.php:15
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Transport/cURL.php on line 15
+[15-Oct-2022 04:05:06 America/Boise] PHP Fatal error:  Uncaught Error: Interface 'Requests_Transport' not found in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Transport/fsockopen.php:15
+Stack trace:
+#0 {main}
+  thrown in /home4/selfimq5/public_html/nextpathtechnology/wp-includes/Requests/Transport/fsockopen.php on line 15
