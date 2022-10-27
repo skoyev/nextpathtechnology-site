@@ -11,3 +11,10 @@
  Tags:         one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments
  Text Domain:  zerif-litechild
 */
+
+.navbar {
+    background: #FFF;
+    border: 0;
+    border-radius: 0 !important;
+    text-align: left;
+}
