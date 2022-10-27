@@ -18,3 +18,7 @@
     border-radius: 0 !important;
     text-align: left;
 }
+
+.navbar-brand > a > img {
+    max-height: 250%;
+}
