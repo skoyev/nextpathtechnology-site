@@ -11,7 +11,7 @@ function my_theme_enqueue_styles() {
     
     //wp_enqueue_script( 'wpa-main-js', get_theme_file_uri( 'js/main.js' ), [], null, true );
 
-    wp_enqueue_script( 'wpa-main-js', get_stylesheet_directory_uri() . '/js/main.js', array(), '20151215', true );
+    wp_enqueue_script( 'wpa-main-js', get_stylesheet_directory_uri() . '/js/main.js', array(), time(), true );
 
     //wp_enqueue_script( 'main_js', plugins_url( 'js/main.js', __FILE__ ), array(), $my_js_ver );
     
