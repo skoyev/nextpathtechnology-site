@@ -121,7 +121,7 @@ jQuery( document ).ready(function($) {
     $('.about-us').find('.container').find('.row').hide();
 
     //var baseurl = "<?php echo wp_upload_dir()['baseurl'] ?>";
-    const baseurl = window.location.origin;
+    const baseurl = window.location.origin + '/wp-content/uploads';
     var link1   = baseurl + "/2020/01/software_healthcare-solutions.jpg";
     var link2   = baseurl + "/2020/01/software_development_transportation-automotive.jpg";
     var link3   = baseurl + "/2017/07/finance-banking-home.jpg";
