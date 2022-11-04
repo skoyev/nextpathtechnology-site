@@ -120,7 +120,8 @@ jQuery( document ).ready(function($) {
     // About-Us section - convert into Project List    
     $('.about-us').find('.container').find('.row').hide();
 
-    var baseurl = "<?php echo wp_upload_dir()['baseurl'] ?>";
+    //var baseurl = "<?php echo wp_upload_dir()['baseurl'] ?>";
+    const baseurl = window.location.origin;
     var link1   = baseurl + "/2020/01/software_healthcare-solutions.jpg";
     var link2   = baseurl + "/2020/01/software_development_transportation-automotive.jpg";
     var link3   = baseurl + "/2017/07/finance-banking-home.jpg";
