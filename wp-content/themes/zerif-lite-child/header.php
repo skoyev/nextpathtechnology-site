@@ -157,8 +157,6 @@
 
 <script>
 jQuery( document ).ready(function($) {	
-		//const form = <?php if (function_exists('simple_contact_form')) simple_contact_form(); ?>
-		//console.log(form);
 		console.log('Test 123');
 //     $('.entry-title').hide();
 //     var contactUs = '<div id="mncontactfrm-header"><h3 class="sec-title" style="margin-left: auto;width: 300px;margin-right: auto;">HOW CAN WE HELP YOU?</h3>';
