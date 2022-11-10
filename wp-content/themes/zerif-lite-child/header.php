@@ -157,6 +157,8 @@
 
 <script>
 jQuery( document ).ready(function($) {	
+		const form = <?php if (function_exists('simple_contact_form')) simple_contact_form(); ?>
+		console.log(form);
 //     $('.entry-title').hide();
 //     var contactUs = '<div id="mncontactfrm-header"><h3 class="sec-title" style="margin-left: auto;width: 300px;margin-right: auto;">HOW CAN WE HELP YOU?</h3>';
 //     contactUs += '<div class="sec-info" style="font-size: 16px; line-height: 1.42857143;width: 80%; margin-left: auto; margin-right: auto; margin-bottom: 15px;">From mobile app development to digital strategy, we do it all.</div></div>';
