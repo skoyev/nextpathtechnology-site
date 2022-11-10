@@ -152,7 +152,7 @@
 
 		<?php zerif_after_header_container_trigger(); ?>
 
-		<div id="contact-form">
+		<div id="contact-form" style="display:none">
 			<?php if (function_exists('simple_contact_form')) simple_contact_form(); ?>
 		</div>
 
