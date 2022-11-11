@@ -48,7 +48,7 @@ jQuery( document ).ready(function($) {
 	
     //$('.contact-us').find('.container').append( contactUsEl );
     //$('.contact-us').find('.container').append( contactUsElShort );
-    $('.contact-us').find('.container').find('.mn_contact_form').after( '<h3>Test</h3>' );
+    //$('.contact-us').find('.container').find('.mn_contact_form').after( '<h3>Test</h3>' );
     $("#mn_sidebar").appendTo("#newFormPosition");
     $('#mn_contact_sidebar').css({'width':'100%'});
     $('.widget-title').css({'display':'none'});

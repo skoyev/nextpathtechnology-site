@@ -152,9 +152,6 @@
 
 		<?php zerif_after_header_container_trigger(); ?>
 
-		<!--div id="contact-form">
-			<?php /**if (function_exists('simple_contact_form')) simple_contact_form(); */?>
-		</div-->
 
 	</div> <!-- /#main-nav -->
 	<!-- / END TOP BAR -->
