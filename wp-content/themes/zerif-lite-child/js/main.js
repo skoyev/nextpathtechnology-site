@@ -46,7 +46,7 @@ jQuery( document ).ready(function($) {
 	
 	var contactUsElShort = '<div class="mn_contact_form container" id="mn-stryle4"><div id="mncontactfrm-header" style="width: 50%; margin-left: auto; margin-right: auto; font-weight: 400; font-size: 23px; margin-top: -30px; color: #ffffff;"><h3 class="sec-title" style="margin-left: auto;width: 300px;margin-right: auto;">HOW CAN WE HELP YOU?</h3><div class="sec-info" style="font-size: 16px; line-height: 1.42857143;width: 80%; margin-left: auto; margin-right: auto; margin-bottom: 15px;">From mobile app development to digital strategy, we do it all.</div><div id="newFormPosition"></div></div>';
 	
-    //$('.contact-us').find('.container').append( contactUsEl );
+    $('.contact-us').find('.container').append( contactUsEl );
     $('.contact-us').find('.container').append( contactUsElShort );
     //$('.contact-us').find('.container').find('.mn_contact_form').after( '<h3>Test</h3>' );
     $("#mn_sidebar").appendTo("#newFormPosition");
