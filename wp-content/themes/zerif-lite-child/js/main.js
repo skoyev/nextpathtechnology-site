@@ -33,11 +33,11 @@ jQuery( document ).ready(function($) {
     contactUsEl += '<div class="mn-control-group"><div class="mn-control-label"><label for="user_name1">Name</label></div><div class="mn-control-input">';
 	contactUsEl += '<span class="mn-icon"><i class="fa fa-user"></i></span><input type="text" name="user_name" id="user_name1" placeholder="Name" value=""><span class="mn-placeholdertext">Name</span></div>';
 	contactUsEl += '</div><div class="mn-control-group"><div class="mn-control-label"><label for="user_email2">Email</label></div>';
-	contactUsEl += '<div class="mn-control-input"><span class="mn-icon"><i class="fa fa-envelope-o"></i></span><input type="text" name="user_email" id="user_email2" placeholder="Email" value=""><span class="mn-placeholdertext">Email</span></div>';
+	contactUsEl += '<div class="mn-control-input"><span class="mn-icon"><i class="fa fa-envelope-o"></i></span><input type="text" name="user_email" id="user_email2" placeholder="Email" value=""></div>';
 	contactUsEl += '</div><div class="mn-control-group"><div class="mn-control-label"><label for="user_subject6">Subject</label></div>';
-	contactUsEl += '<div class="mn-control-input"><span class="mn-icon"><i class="fa fa-book"></i></span><input type="text" name="user_subject" id="user_subject6" placeholder="Subject" value=""><span class="mn-placeholdertext">Subject</span></div>';
+	contactUsEl += '<div class="mn-control-input"><span class="mn-icon"><i class="fa fa-book"></i></span><input type="text" name="user_subject" id="user_subject6" placeholder="Subject" value=""></div>';
 	contactUsEl += '</div><div class="mn-control-group"><div class="mn-control-label"><label for="user_message7">Message</label></div>';
-	contactUsEl += '<div class="mn-control-input"><span class="mn-icon"><i class="fa fa-envelope"></i></span><textarea name="user_message" id="user_message7" placeholder="Message"></textarea><span class="mn-placeholdertext">Message</span></div>';
+	contactUsEl += '<div class="mn-control-input"><span class="mn-icon"><i class="fa fa-envelope"></i></span><textarea name="user_message" id="user_message7" placeholder="Message"></textarea></div>';
 	contactUsEl += '</div><p><label for="answer" style="color: #ffffff;margin-right:10px;">Write Your Answer: </label>';
 	contactUsEl += '<span id="mn_a" style="color: #ffffff;font-style:italic">' + value1 + ' + </span><span id="mn_b" style="color: #ffffff;font-style:italic">' + value2 + ' = </span><input type="text" name="mn_answer" id="mn_answer" value="" maxlength="4" style="width:60px; margin:0 5px;" required="required"><small style="color: #ffffff;"></small>';
 	contactUsEl += '</p><p id="mn_contact_sending_status" style="display:none;"></p><p>';
