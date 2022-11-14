@@ -36,3 +36,7 @@
     margin: 10px;
     border: none;
 }
+
+#mncontactfrm-home .mn-control-label {
+    text-align: left;
+}
