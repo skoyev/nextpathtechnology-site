@@ -40,3 +40,7 @@
 #mncontactfrm-home .mn-control-label {
     text-align: left;
 }
+
+.mn-control-label {
+    color: #FFF;
+}
