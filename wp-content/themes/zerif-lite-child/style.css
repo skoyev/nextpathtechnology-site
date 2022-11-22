@@ -45,6 +45,6 @@
     color: #FFF;
 }
 
-.mncontactfrm-home > .mn-icon {
+.mncontactfrm-home .mn-icon {
     display: none;
 }
