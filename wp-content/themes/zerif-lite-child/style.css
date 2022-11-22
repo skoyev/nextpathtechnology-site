@@ -44,3 +44,7 @@
 .mn-control-label {
     color: #FFF;
 }
+
+.mncontactfrm-home > .mn-icon {
+    display: none;
+}
