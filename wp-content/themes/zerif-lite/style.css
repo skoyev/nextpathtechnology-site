@@ -610,7 +610,7 @@ input[type="search"],
 textarea {
 	color: #555;
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	border-radius: 0;
+	/* border-radius: 0; */
 }
 input[type="text"]:focus,
 input[type="email"]:focus,
