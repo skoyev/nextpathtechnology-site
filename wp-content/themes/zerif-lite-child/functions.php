@@ -21,6 +21,10 @@ function my_theme_enqueue_styles() {
     wp_enqueue_script( 'wpa-main-js', get_stylesheet_directory_uri() . '/js/main.js', array(), time(), true );
 
     //wp_enqueue_script( 'wpa-main-js', get_stylesheet_directory_uri() . '/js/main.js', array(), 6, true );
+
+    echo '<script type="text/javascript">
+            alert("In test Function");
+        </script>';    
 }
 
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );

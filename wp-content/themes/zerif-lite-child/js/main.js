@@ -39,7 +39,7 @@ jQuery( document ).ready(function($) {
 	contactUsEl += '</div><div class="mn-control-group"><div class="mn-control-label"><label for="user_message7">Message</label></div>';
 	contactUsEl += '<div class="form-group"><textarea name="user_message" id="user_message7"></textarea></div>';
 	contactUsEl += '</div><p><label for="answer" style="color: #ffffff;margin-right:10px;">Write Your Answer: </label>';
-	contactUsEl += '<span id="mn_a" style="color: #ffffff;font-style:italic">' + value1 + ' + </span><span id="mn_b" style="color: #ffffff;font-style:italic">' + value2 + ' = </span><input type="text" name="mn_answer" id="mn_answer" value="" maxlength="4" style="width:60px; margin:0 5px;" required="required"><small style="color: #ffffff;"></small>';
+	contactUsEl += '<span id="mn_a" style="color: #ffffff;font-style:italic">' + value1 + ' + </span><span id="mn_b" style="color: #ffffff;font-style:italic">' + value2 + ' = </span><input type="text" name="mn_answer" id="mn_answer" value="" maxlength="4" style="border-radius: 3px; width:60px; margin:0 5px;" required="required"><small style="color: #ffffff;"></small>';
 	contactUsEl += '</p><p id="mn_contact_sending_status" style="display:none;"></p><p>';
 	contactUsEl += '<input type="hidden" name="mn_save_data" id="" value="0"><div class="mn-control-group"><input class="form-control" type="submit" name="mn_contact_submit" id="mn_contact_submit" value="Submit Request" style="padding-top: 8px; background-color:#0CABE5; width:100%; font-weight: bold;"></div>';
 	contactUsEl += '</p><div style="color: #ffffff" id="email-msg"></div></form></div>';
