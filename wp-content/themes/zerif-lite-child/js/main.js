@@ -72,7 +72,7 @@ jQuery( document ).ready(function($) {
 	    }
 
 	    //var url = '<?php echo admin_url('admin-ajax.php'); ?>';
-	    var url = '/wp-content/plugins/mn-contact-form/ajaxreq/ajax_requests.php';
+	    var url = '/wp-admin/admin-ajax.php';
 	    var data = {'action':'send_email', 'user_name': $('#user_name1').val(), 'user_email': $('#user_email2').val(), 'user_message':$('#user_message7').val(), 'user_subject': $('#user_subject6').val(), 'mn_answer': 9, 'mn_save_data': 0, 'admin_email':'info@nextpathtechnology.com', 'mn_captcha':1, 'mn_confirmation_mail':1};
 
   		$.post(url, data , function(result) {
