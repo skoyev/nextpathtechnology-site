@@ -25,14 +25,17 @@ function my_theme_enqueue_styles() {
 
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
-// if you want none logged in users to access this function use this hook
-add_action('wp_ajax_nopriv_mail_before_submit', 'mycustomtheme_send_mail_before_submit');
-
-function mycustomtheme_send_mail_before_submit() {
-    if ( isset($_POST['action']) && 
-            $_POST['action'] == "send_email" ) {
+function get_data() {
+    //if ( isset($_POST['action']) && 
+      //      $_POST['action'] == "send_email" ) {
         echo '<script type="text/javascript">
-            alert("In mycustomtheme_send_mail_before_submit Function");
-        </script>';     
-    } 
+            alert("In get_data Function");
+        </script>';    
+        
+        wp_die(); 
+    //} 
 }
+
+// if you want none logged in users to access this function use this hook
+add_action('wp_ajax_nopriv_get_data', 'get_data');
+add_action( 'wp_ajax_get_data', 'get_data' );
