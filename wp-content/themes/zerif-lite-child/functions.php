@@ -36,19 +36,21 @@ function get_data() {
       //      $_POST['action'] == "send_email" ) {
         global $email_key;  
 
-        $success = wp_mail('info@nextpathtechnology.com', 'test subject', 'test content');
+        if($_POST['email_key'] === $email_key) {
 
-        //echo $email_key;
+            $success = wp_mail('info@nextpathtechnology.com', 'test subject', 'test content');
 
-        $data = ['status' => $success, 'email_key' => $_POST['email_key']];
+            $data = ['status' => $success ? 'success' : 'failed', 'email_key' => $_POST['email_key']];
 
-        echo json_encode($data);
+            echo json_encode($data);
 
-        //if ($succsess) return true
-        //else return false;   
+        } else {
+            $data = ['status' => 'failed'];
+
+            echo json_encode($data);
+        }
         
         wp_die(); 
-    //} 
 }
 
 add_action('wp_head', 'myplugin_ajaxurl');
