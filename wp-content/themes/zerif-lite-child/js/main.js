@@ -88,7 +88,7 @@ jQuery( document ).ready(function($) {
                      'mn_confirmation_mail':1};
 
   		$.post(ajaxUrl, data , function(result) {
-		   if( result.startsWith('SUCCESS') ) {
+		   if( result.status('success') ) {
 			$('#send_email').val('');
 			$('#user_name1').val('');
 			$('#user_email2').val('');

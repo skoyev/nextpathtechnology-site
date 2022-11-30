@@ -1,6 +1,10 @@
 <?php
 
-$email_key = 'test123';
+$email_key = generateRandomString();
+
+function generateRandomString($length = 10) {
+    return substr(str_shuffle(str_repeat($x='0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ', ceil($length/strlen($x)) )),1,$length);
+}
 
 function my_theme_enqueue_styles() {
     $my_js_ver  = date("ymd-Gis", filemtime( plugin_dir_path( __FILE__ ) . `js/main.js` ));
@@ -43,7 +47,6 @@ function get_data() {
             $data = ['status' => $success ? 'success' : 'failed', 'email_key' => $_POST['email_key']];
 
             echo json_encode($data);
-
         } else {
             $data = ['status' => 'failed'];
 
@@ -61,6 +64,7 @@ function myplugin_ajaxurl() {
     echo '<script type="text/javascript">
            var ajaxUrl = "' . admin_url('admin-ajax.php') . '";
            var email_key = "' . $email_key . '";
+           alert("' . $email_key . '");
          </script>';
 }
 
