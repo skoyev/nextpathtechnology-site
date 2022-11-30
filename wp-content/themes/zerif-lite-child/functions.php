@@ -40,7 +40,9 @@ function get_data() {
 
         //echo $email_key;
 
-        echo {'status' : $success, 'email_key' : $_POST['email_key']}
+        $data = ['status' => $success, 'email_key' => $_POST['email_key']];
+
+        echo json_encode($data);
 
         //if ($succsess) return true
         //else return false;   
