@@ -40,7 +40,7 @@ function get_data() {
 
         //echo $email_key;
 
-        echo 'Return';
+        echo $email_key;
 
         //if ($succsess) return true
         //else return false;   
