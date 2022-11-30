@@ -26,7 +26,8 @@ function my_theme_enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
 // if you want none logged in users to access this function use this hook
-add_action('wp_ajax_nopriv_get_data', 'get_data');
+add_action( 'wp_ajax_get_data', 'get_data' );
+add_action( 'wp_ajax_nopriv_get_data', 'get_data');
 
 function get_data() {
     //if ( isset($_POST['action']) && 
