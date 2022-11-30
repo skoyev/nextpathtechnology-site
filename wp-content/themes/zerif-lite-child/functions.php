@@ -1,5 +1,7 @@
 <?php
 
+$email_key = '';
+
 function my_theme_enqueue_styles() {
     $my_js_ver  = date("ymd-Gis", filemtime( plugin_dir_path( __FILE__ ) . `js/main.js` ));
 
@@ -32,18 +34,26 @@ add_action( 'wp_ajax_nopriv_get_data', 'get_data');
 function get_data() {
     //if ( isset($_POST['action']) && 
       //      $_POST['action'] == "send_email" ) {
-        echo 'Ajax call output:';    
+        global $email_key;  
+
+        $success = wp_mail('info@nextpathtechnology.com', 'test subject', 'test content');
+
+        echo $email_key;
+
+        //if ($succsess) return true
+        //else return false;   
         
-        wp_die(); 
+        die(); 
     //} 
 }
 
 add_action('wp_head', 'myplugin_ajaxurl');
 
 function myplugin_ajaxurl() {
+    $GLOBALS['email_key'] = 'test123';
 
-   echo '<script type="text/javascript">
-           var ajaxurl = "' . admin_url('admin-ajax.php') . '";
+    echo '<script type="text/javascript">
+           var ajaxUrl = "' . admin_url('admin-ajax.php') . '";
          </script>';
 }
 
