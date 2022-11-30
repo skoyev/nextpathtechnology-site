@@ -1,6 +1,6 @@
 <?php
 
-global $email_key = 'test123';
+$email_key = 'test123';
 
 function my_theme_enqueue_styles() {
     $my_js_ver  = date("ymd-Gis", filemtime( plugin_dir_path( __FILE__ ) . `js/main.js` ));
