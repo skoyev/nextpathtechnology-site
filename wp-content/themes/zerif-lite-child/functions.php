@@ -50,10 +50,13 @@ function get_data() {
 add_action('wp_head', 'myplugin_ajaxurl');
 
 function myplugin_ajaxurl() {
-    $GLOBALS['email_key'] = 'test123';
+    global $email_key;
+
+    $email_key = 'test123';
 
     echo '<script type="text/javascript">
            var ajaxUrl = "' . admin_url('admin-ajax.php') . '";
+           alert("Test");
          </script>';
 }
 
