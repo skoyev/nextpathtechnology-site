@@ -40,7 +40,7 @@ function get_data() {
 
         //echo $email_key;
 
-        echo $email_key;
+        echo {'status' : $success, 'email_key' : $_POST['email_key']}
 
         //if ($succsess) return true
         //else return false;   
@@ -54,11 +54,9 @@ add_action('wp_head', 'myplugin_ajaxurl');
 function myplugin_ajaxurl() {
     global $email_key;
 
-    //$email_key = 'test123';
-
     echo '<script type="text/javascript">
            var ajaxUrl = "' . admin_url('admin-ajax.php') . '";
-           alert("' . $email_key . '");
+           var email_key = "' . $email_key . '";
          </script>';
 }
 
