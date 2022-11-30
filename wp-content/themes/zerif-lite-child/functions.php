@@ -48,7 +48,7 @@ function get_data() {
 
             echo json_encode($data);
         } else {
-            $data = ['status' => 'failed'];
+            $data = ['status' => 'failed', 'email_key' => $_POST['email_key'], 'email_key2' => $email_key];
 
             echo json_encode($data);
         }
