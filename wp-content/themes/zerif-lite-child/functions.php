@@ -64,7 +64,6 @@ function myplugin_ajaxurl() {
     echo '<script type="text/javascript">
            var ajaxUrl = "' . admin_url('admin-ajax.php') . '";
            var email_key = "' . $email_key . '";
-           alert("' . $email_key . '");
-         </script>';
+\         </script>';
 }
 
