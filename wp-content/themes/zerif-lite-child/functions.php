@@ -1,6 +1,6 @@
 <?php
 
-$email_key = generateRandomString();
+$email_key = 'RkmwuP7Qnt';
 
 function generateRandomString($length = 10) {
     return substr(str_shuffle(str_repeat($x='0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ', ceil($length/strlen($x)) )),1,$length);
@@ -42,13 +42,13 @@ function get_data() {
 
         if($_POST['email_key'] === $email_key) {
 
-            $success = wp_mail('info@nextpathtechnology.com', 'test subject', 'test content');
+            $success = wp_mail('info@nextpathtechnology.com', $_POST['user_subject'], $_POST['user_message'] . ' /n Email from: ' . $_POST['user_email']);
 
             $data = ['status' => $success ? 'success' : 'failed', 'email_key' => $_POST['email_key']];
 
             echo json_encode($data);
         } else {
-            $data = ['status' => 'failed', 'email_key' => $_POST['email_key'], 'email_key2' => $email_key];
+            $data = ['status' => 'failed'];
 
             echo json_encode($data);
         }
