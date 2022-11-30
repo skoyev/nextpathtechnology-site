@@ -38,7 +38,9 @@ function get_data() {
 
         $success = wp_mail('info@nextpathtechnology.com', 'test subject', 'test content');
 
-        echo $email_key;
+        //echo $email_key;
+
+        echo 'Return';
 
         //if ($succsess) return true
         //else return false;   
