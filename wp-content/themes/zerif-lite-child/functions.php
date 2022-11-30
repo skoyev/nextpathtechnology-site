@@ -43,7 +43,7 @@ function get_data() {
         //if ($succsess) return true
         //else return false;   
         
-        die(); 
+        wp_die(); 
     //} 
 }
 
