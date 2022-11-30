@@ -1,6 +1,6 @@
 <?php
 
-$email_key = '';
+global $email_key = 'test123';
 
 function my_theme_enqueue_styles() {
     $my_js_ver  = date("ymd-Gis", filemtime( plugin_dir_path( __FILE__ ) . `js/main.js` ));
@@ -54,7 +54,7 @@ add_action('wp_head', 'myplugin_ajaxurl');
 function myplugin_ajaxurl() {
     global $email_key;
 
-    $email_key = 'test123';
+    //$email_key = 'test123';
 
     echo '<script type="text/javascript">
            var ajaxUrl = "' . admin_url('admin-ajax.php') . '";
