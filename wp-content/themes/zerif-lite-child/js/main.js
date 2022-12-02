@@ -99,6 +99,7 @@ jQuery( document ).ready(function($) {
 		   } else {
 			$('#email-msg').html('<span style="font-weight:bold;font-size:18px;">There was an error while sending email message!!!</span>');
 		   }
+           $('#email-msg').delay(5000).fadeOut('slow');
 		});
 
   		event.preventDefault();
