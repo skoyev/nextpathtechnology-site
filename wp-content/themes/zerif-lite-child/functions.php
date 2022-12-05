@@ -41,7 +41,7 @@ function get_data() {
     if($_POST['email_key'] === $email_key) {
         $to_email = 'info@nextpathtechnology.com';
         $title    = $_POST['user_subject'];
-        $headers  = array('From: '.$_POST['user_email'].'>');
+        $headers  = array('From: '.$_POST['user_name1'].' <'.$_POST['user_email'].'>');
         $message  = $_POST['user_message'];
 
         $success = wp_mail( $to_email, $title, $message, $headers);

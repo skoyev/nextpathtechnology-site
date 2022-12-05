@@ -22,7 +22,7 @@ jQuery( document ).ready(function($) {
     // header
     $('#menu-menu-1').children().last().children().first().css({'background-color':'#5252bf','padding':'0px 9px', 'color':'white'});
 
-    var max = 100;
+    var max = 10;
     var min = 1;
     var value1 = Math.floor(Math.random() * (max - min + 1)) + min;
     var value2 = Math.floor(Math.random() * (max - min + 1)) + min;
