@@ -36,24 +36,26 @@ add_action( 'wp_ajax_get_data', 'get_data' );
 add_action( 'wp_ajax_nopriv_get_data', 'get_data');
 
 function get_data() {
-    //if ( isset($_POST['action']) && 
-      //      $_POST['action'] == "send_email" ) {
-        global $email_key;  
+    global $email_key;  
 
-        if($_POST['email_key'] === $email_key) {
+    if($_POST['email_key'] === $email_key) {
+        $to_email = 'info@nextpathtechnology.com';
+        $title    = $_POST['user_subject'];
+        $headers  = array('From: '.$_POST['user_email'].'>');
+        $message  = $_POST['user_message'];
 
-            $success = wp_mail('info@nextpathtechnology.com', $_POST['user_subject'], $_POST['user_message'] . ' /n Email from: ' . $_POST['user_email']);
+        $success = wp_mail( $to_email, $title, $message, $headers);
 
-            $data = ['status' => $success ? 'success' : 'failed', 'email_key' => $_POST['email_key']];
+        $data = ['status' => $success ? 'success' : 'failed', 'email_key' => $_POST['email_key']];
 
-            echo json_encode($data);
-        } else {
-            $data = ['status' => 'failed'];
+        echo json_encode($data);
+    } else {
+        $data = ['status' => 'failed'];
 
-            echo json_encode($data);
-        }
-        
-        wp_die(); 
+        echo json_encode($data);
+    }
+    
+    wp_die(); 
 }
 
 add_action('wp_head', 'myplugin_ajaxurl');
