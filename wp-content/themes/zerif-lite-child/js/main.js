@@ -95,9 +95,9 @@ jQuery( document ).ready(function($) {
 			$('#user_message7').val('');
 			$('#user_subject6').val('');
 			$('#mn_answer').val('');
-			$('#email-msg').html('<span style="font-weight:bold;font-size:18px;">The message has been sent successfully!!!</span>');
+			$('#email-msg').html('<span style="font-weight:bold;font-size:18px;">Thank you for your request. We will reply shortly.</span>');
 		   } else {
-			$('#email-msg').html('<span style="font-weight:bold;font-size:18px;">There was an error while sending email message!!!</span>');
+			$('#email-msg').html('<span style="font-weight:bold;font-size:18px;">There was an error while sending your request.</span>');
 		   }
            $('#email-msg').delay(5000).fadeOut('slow');
 		});
