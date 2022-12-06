@@ -37,7 +37,7 @@ jQuery( document ).ready(function($) {
 	contactUsEl += '</div><div class="mn-control-group"><div class="mn-control-label"><label for="user_subject6">Subject</label></div>';
 	contactUsEl += '<div class="form-group"><input class="form-control" type="text" name="user_subject" id="user_subject6" style="text-indent:20px" value=""></div>';
 	contactUsEl += '</div><div class="mn-control-group"><div class="mn-control-label"><label for="user_message7">Message</label></div>';
-	contactUsEl += '<div class="form-group"><textarea name="user_message" id="user_message7"></textarea></div>';
+	contactUsEl += '<div class="form-group"><textarea rows="10" name="user_message" id="user_message7"></textarea></div>';
 	contactUsEl += '</div><p><label for="answer" style="color: #ffffff;margin-right:10px;">Write Your Answer: </label>';
 	contactUsEl += '<span id="mn_a" style="color: #ffffff;font-style:italic">' + value1 + ' + </span><span id="mn_b" style="color: #ffffff;font-style:italic">' + value2 + ' = </span><input type="text" name="mn_answer" id="mn_answer" value="" maxlength="4" style="border-radius: 3px; width:60px; margin:0 5px;" required="required"><small style="color: #ffffff;"></small>';
 	contactUsEl += '</p><p id="mn_contact_sending_status" style="display:none;"></p><p>';
