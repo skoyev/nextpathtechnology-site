@@ -1,6 +1,6 @@
 jQuery( document ).ready(function($) {
     // update Contact Us button
-    $('#menu-menu-1').children().last().children().first().css({display:none});
+    $('#menu-menu-1').children().last().children().first().css({'display':'none'});
 
     // services section
     const services = $('#services');
