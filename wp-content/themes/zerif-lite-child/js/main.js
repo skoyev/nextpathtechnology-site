@@ -1,6 +1,6 @@
 jQuery( document ).ready(function($) {
     // update Contact Us button
-    $('#menu-menu-1').children().last().children().first().attr("href", "#")
+    $('#menu-menu-1').children().last().children().first().attr("href", "javascript:void(0);")
 
     // services section
     const services = $('#services');
