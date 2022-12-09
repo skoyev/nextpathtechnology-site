@@ -1,6 +1,12 @@
 jQuery( document ).ready(function($) {
     // update Contact Us button
-    $('#menu-menu-1').children().last().children().first().attr("href", "javascript:void(0);")
+    const contactUsTopBtn = $('#menu-menu-1').children().last().children().first();
+    if(contactUsTopBtn) {
+        contactUsTopBtn.attr("href", "javascript:void(0);");
+        contactUsTopBtn.click((e)=> {
+            console.log('click')
+        })
+    }
 
     // services section
     const services = $('#services');
