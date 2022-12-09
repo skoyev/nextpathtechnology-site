@@ -4,7 +4,9 @@ jQuery( document ).ready(function($) {
     if(contactUsTopBtn) {
         contactUsTopBtn.attr("href", "javascript:void(0);");
         contactUsTopBtn.click((e)=> {
-            console.log('click')
+            $('html, body').animate({
+                scrollTop: $("#mncontactfrm-header").offset().top
+            }, 2000);
         })
     }
 
