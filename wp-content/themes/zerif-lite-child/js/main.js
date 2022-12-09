@@ -5,7 +5,7 @@ jQuery( document ).ready(function($) {
         contactUsTopBtn.attr("href", "javascript:void(0);");
         contactUsTopBtn.click((e)=> {
             $('html, body').animate({
-                scrollTop: $("#mncontactfrm-header").offset().top
+                scrollTop: $("#contact").offset().top
             }, 2000);
         })
     }
