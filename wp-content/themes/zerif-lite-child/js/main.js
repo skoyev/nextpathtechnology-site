@@ -1,5 +1,6 @@
 jQuery( document ).ready(function($) {
-    console.log("Start child in 5...");
+    // update Contact Us button
+    $('#menu-menu-1').children().last().children().first().css({display:none});
 
     // services section
     const services = $('#services');
@@ -70,8 +71,6 @@ jQuery( document ).ready(function($) {
             event.preventDefault();
 			return;
 	    }
-
-        //console.log(ajaxurl)
 
 	    //var url = '<?php echo admin_url('admin-ajax.php'); ?>';
 	    //var url = window.location.origin + '/wp-admin/admin-ajax.php';
