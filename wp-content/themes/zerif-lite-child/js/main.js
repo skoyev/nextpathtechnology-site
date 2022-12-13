@@ -29,7 +29,7 @@ jQuery( document ).ready(function($) {
     $('#mncontactfrm').css(style); 
 
     // header
-    $('#menu-menu-1').children().last().children().first().css({'background-color':'#5252bf','padding':'0px 9px', 'color':'white'});
+    $('#menu-menu-1').children().last().children().first().css({'background-color':'#4C508C','padding':'0px 9px', 'color':'white', 'border-radius': '8px', 'font-family': 'Arial, Helvetica, sans-serif'});
 
     var max = 10;
     var min = 1;
