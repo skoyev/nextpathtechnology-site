@@ -76,13 +76,13 @@ jQuery( document ).ready(function($) {
 							|| $('#user_message7').val().length == 0 || $('#user_subject6').val().length == 0;
 
 	    if(hasFormErrors) {
-		    $('#email-msg').html('<span style="font-weight:bold;font-size:18px;">Please fill in form correctly !!!</span>');
+		    $('#email-msg').html('<span style="font-size:18px;">Please fill in form correctly.</span>');
             event.preventDefault();
 			return;
 	    }
 
 	    if($('#mn_answer').val() != (value1 + value2)) {
-		    $('#email-msg').html('<span style="font-weight:bold;font-size:18px;">Please write the correct your math answer!!!</span>');
+		    $('#email-msg').html('<span style="font-size:18px;">Please write the correct math answer.</span>');
             event.preventDefault();
 			return;
 	    }
@@ -109,9 +109,9 @@ jQuery( document ).ready(function($) {
 			$('#user_message7').val('');
 			$('#user_subject6').val('');
 			$('#mn_answer').val('');
-			$('#email-msg').html('<span style="font-weight:bold;font-size:18px;">Thank you for your request. We will reply shortly.</span>');
+			$('#email-msg').html('<span style="font-size:18px;">Thank you for your request. We will reply shortly.</span>');
 		   } else {
-			$('#email-msg').html('<span style="font-weight:bold;font-size:18px;">There was an error while sending your request.</span>');
+			$('#email-msg').html('<span style="font-size:18px;">There was an error while sending your request.</span>');
 		   }
            $('#email-msg').delay(5000).fadeOut('slow');
 		});
