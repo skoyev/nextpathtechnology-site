@@ -75,7 +75,7 @@ jQuery( document ).ready(function($) {
         var isValidEntry = $('#user_name1').val().length == 0 || $('#user_email2').val().length == 0 
 							|| $('#user_message7').val().length == 0 || $('#user_subject6').val().length == 0;
 
-	    if(isValidEntry) {
+	    if(!isValidEntry) {
 		    $('#email-msg').html('<span style="font-weight:bold;font-size:18px;">Please fill in form correctly !!!</span>');
             event.preventDefault();
 			return;
