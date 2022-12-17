@@ -62,6 +62,7 @@ jQuery( document ).ready(function($) {
 	
     //$('.contact-us').find('.container').append( contactUsElShort );
     $('.contact-us').find('.container').append( contactUsEl );
+    $('.contact-us').css({'padding-top':'50px'})
 
     //$('.contact-us').find('.container').find('.mn_contact_form').after( '<h3>Test</h3>' );
     $("#mn_sidebar").appendTo("#newFormPosition");
