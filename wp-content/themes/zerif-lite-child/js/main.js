@@ -12,9 +12,7 @@ jQuery( document ).ready(function($) {
 
     const lastMenuLi = $('#menu-menu-1').children().last();
     if(lastMenuLi){
-        lastMenuLi.hover(() => {
-            console.log('hover');
-        });
+        lastMenuLi.css({'border-top':'none'});
     }
 
     // services section
