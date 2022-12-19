@@ -142,11 +142,11 @@ jQuery( document ).ready(function($) {
         setTimeout(updateFooter, 1500);
     
 	    // hide button on main screen
-	    $('.header-content-wrap').find('.container').find('.buttons').children().first().attr('style','display:none !important');
+	    //$('.header-content-wrap').find('.container').find('.buttons').children().first().attr('style','display:none !important');
 	    
 	    // header adjustments
 	    $('.home-header-wrap').css({'min-height':'600px'});
-	    $('.header-content-wrap').css({'padding':'210px 0 150px', 'min-height':'600px'});
+	    $('.header-content-wrap').css({'padding':'200px 0 0', 'min-height':'600px'});
 	    
 	    //slider
 
