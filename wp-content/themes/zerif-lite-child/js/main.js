@@ -148,9 +148,9 @@ jQuery( document ).ready(function($) {
     $('.home-header-wrap').css({'min-height':'600px'});
     const headerContentWrap = $('.header-content-wrap');
     if(headerContentWrap){
-        const button = '<div><button id="askQuestion">Ask Question</button></div>';
+        const button = '<div class="container"><button id="askQuestion" type="button" class="btn btn-success">Ask Question</button></div>';
         headerContentWrap.css({'padding':'200px 0 0', 'min-height':'600px'});
-        headerContentWrap.find('.container').append(button)
+        headerContentWrap.append(button)
     }
 	//slider
 
