@@ -148,9 +148,16 @@ jQuery( document ).ready(function($) {
     $('.home-header-wrap').css({'min-height':'600px'});
     const headerContentWrap = $('.header-content-wrap');
     if(headerContentWrap){
-        const button = '<div class="container"><button id="askQuestion" type="button" class="btn btn-success">Ask Question</button></div>';
+        const button = '<div class="container" style="margin-top: 50px"><button id="askQuestion" type="button" class="btn btn-success" style="font-size: 16px;">Ask Question</button></div>';
         headerContentWrap.css({'padding':'200px 0 0', 'min-height':'600px'});
-        headerContentWrap.append(button)
+        headerContentWrap.append(button);
+
+        const contactUsTitleBtn = $('#askQuestion');
+        contactUsTitleBtn.click((e)=> {
+            $('html, body').animate({
+                scrollTop: $("#contact").offset().top
+            }, 2000);
+        })        
     }
 	//slider
 
