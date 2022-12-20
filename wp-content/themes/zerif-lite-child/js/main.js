@@ -139,16 +139,20 @@ jQuery( document ).ready(function($) {
         footerEl.html( el1 + el2 + el3 + el4 );
         };
 
-        setTimeout(updateFooter, 1500);
+    setTimeout(updateFooter, 1500);
+
+    // hide button on main screen
+    //$('.header-content-wrap').find('.container').find('.buttons').children().first().attr('style','display:none !important');
     
-	    // hide button on main screen
-	    //$('.header-content-wrap').find('.container').find('.buttons').children().first().attr('style','display:none !important');
-	    
-	    // header adjustments
-	    $('.home-header-wrap').css({'min-height':'600px'});
-	    $('.header-content-wrap').css({'padding':'200px 0 0', 'min-height':'600px'});
-	    
-	    //slider
+    // header adjustments
+    $('.home-header-wrap').css({'min-height':'600px'});
+    const headerContentWrap = $('.header-content-wrap');
+    if(headerContentWrap){
+        const button = '<div><button id="askQuestion">Ask Question</button></div>';
+        headerContentWrap.css({'padding':'200px 0 0', 'min-height':'600px'});
+        headerContentWrap.find('.container').append(button)
+    }
+	//slider
 
     // home image   
     $('.intro-text').after('<h4 style="color:#FFF;width: 50%; margin-left: auto; margin-right: auto;">Our app developers will help you create a web and mobile experience that lingers in memory and leverages the latest technologies.</h4>');
