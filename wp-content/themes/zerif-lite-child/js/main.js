@@ -148,6 +148,24 @@ jQuery( document ).ready(function($) {
     $('.home-header-wrap').css({'min-height':'600px'});
     const headerContentWrap = $('.header-content-wrap');
     if(headerContentWrap){
+        // add slider 1
+        headerContentWrap
+            .find('.container')
+            .first().addClass( "slideshow" );
+
+        let slider = '<div class="container slideshow">2</div>';
+        // slider 2
+        headerContentWrap.append(slider);            
+
+        slider = '<div class="container slideshow">3</div>';
+        // slider 3
+        headerContentWrap.append(slider);            
+
+        slider = '<div class="container slideshow">4</div>';
+        // slider 4
+        headerContentWrap.append(slider);            
+
+        // add button
         const button = '<div class="container" style="margin-top: 50px"><button id="askQuestion" type="button" class="btn btn-success" style="font-size: 16px;">Ask Question</button></div>';
         headerContentWrap.css({'padding':'200px 0 0', 'min-height':'600px'});
         headerContentWrap.append(button);
@@ -162,7 +180,7 @@ jQuery( document ).ready(function($) {
 	//slider
 
     // home image   
-    $('.intro-text').after('<h4 style="color:#FFF;width: 50%; margin-left: auto; margin-right: auto;">Our app developers will help you create a web and mobile experience that lingers in memory and leverages the latest technologies.</h4>');
+    $('.intro-text').after('<h4 style="color:#FFF;width: 50%; margin-left: auto; margin-right: auto;">We help digitiazlize you business and and leverages the latest cloud technologies, so your business is secured and scalable.</h4>');
     $('.about-us').css({'background':'#e2e2e2'});
     $('h2.white-text').css({'color':'#504d4d'});
     $('.white-text.section-legend').css({'color':'#504d4d'});
