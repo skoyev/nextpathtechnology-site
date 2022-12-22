@@ -180,7 +180,7 @@ jQuery( document ).ready(function($) {
 	//slider
 
     // home image   
-    $('.intro-text').after('<h4 style="color:#FFF;width: 50%; margin-left: auto; margin-right: auto;">We help digitiazlize you business and and leverages the latest cloud technologies, so your business is secured and scalable.</h4>');
+    $('.intro-text').after('<h4 style="color:#FFF;width: 50%; margin-left: auto; margin-right: auto;">We digitiazlize your business and leverage latest cloud technologies, make your business secured and scalable.</h4>');
     $('.about-us').css({'background':'#e2e2e2'});
     $('h2.white-text').css({'color':'#504d4d'});
     $('.white-text.section-legend').css({'color':'#504d4d'});
