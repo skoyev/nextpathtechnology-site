@@ -148,7 +148,7 @@ jQuery( document ).ready(function($) {
     const headerContentWrap = $('.header-content-wrap');
     if(headerContentWrap){
         headerContentWrap.css({'min-height':'600px'});
-        headerContentWrap.addClass( "slideshow" );
+        headerContentWrap.attr("id", "slideshow");
 
         // add slider 1
         /* 
