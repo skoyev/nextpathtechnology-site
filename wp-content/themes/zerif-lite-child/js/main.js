@@ -145,25 +145,37 @@ jQuery( document ).ready(function($) {
     //$('.header-content-wrap').find('.container').find('.buttons').children().first().attr('style','display:none !important');
     
     // header adjustments
-    $('.home-header-wrap').css({'min-height':'600px'});
     const headerContentWrap = $('.header-content-wrap');
     if(headerContentWrap){
+        headerContentWrap.css({'min-height':'600px'});
+        headerContentWrap.addClass( "slideshow" );
+
         // add slider 1
+        /* 
         headerContentWrap
             .find('.container')
-            .first().addClass( "slideshow" );
+            .first().addClass( "slideshow" ); */
 
-        let slider = '<div class="container slideshow">2</div>';
+        let slider = '<div class="container">2</div>';
         // slider 2
         headerContentWrap.append(slider);            
 
-        slider = '<div class="container slideshow">3</div>';
+        slider = '<div class="container">3</div>';
         // slider 3
         headerContentWrap.append(slider);            
 
-        slider = '<div class="container slideshow">4</div>';
+        slider = '<div class="container">4</div>';
         // slider 4
-        headerContentWrap.append(slider);            
+        headerContentWrap.append(slider);      
+        
+        setInterval(function() {
+            $('#slideshow > div:first')
+              .fadeOut(1000)
+              .next()
+              .fadeIn(500)
+              .end()
+              .appendTo('#slideshow');
+          }, 3000);
 
         // add button
         const button = '<div class="container" style="margin-top: 50px"><button id="askQuestion" type="button" class="btn btn-success" style="font-size: 16px;">Ask Question</button></div>';
