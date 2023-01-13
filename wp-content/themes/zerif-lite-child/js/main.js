@@ -156,20 +156,21 @@ jQuery( document ).ready(function($) {
             .find('.container')
             .first().addClass( "slideshow" ); */
 
-        let slider = '<div class="container">2</div>';
+        let slider = '<div class="slider-content">2</div>';
         // slider 2
         headerContentWrap.append(slider);            
 
-        slider = '<div class="container">3</div>';
+        slider = '<div class="slider-content">3</div>';
         // slider 3
         headerContentWrap.append(slider);            
 
-        slider = '<div class="container">4</div>';
+        slider = '<div class="slider-content">4</div>';
         // slider 4
         headerContentWrap.append(slider);      
         
         setInterval(function() {
-            $('#slideshow > div:first')
+            //$('#slideshow > div:first')
+            $('#slideshow > .slider-content:first')
               .fadeOut(1000)
               .next()
               .fadeIn(500)
