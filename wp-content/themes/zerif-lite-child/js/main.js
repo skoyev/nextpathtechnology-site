@@ -146,9 +146,13 @@ jQuery( document ).ready(function($) {
     
     // header adjustments
     const headerContentWrap = $('.header-content-wrap');
-    if(headerContentWrap){
+    if(headerContentWrap) {
         headerContentWrap.css({'min-height':'600px'});
-        headerContentWrap.attr("id", "slideshow");
+        //headerContentWrap.attr("id", "slideshow");
+
+        headerContentWrap.find('.container').first().wrap('<div id="slideshow"></div>');
+
+        const slideshow = headerContentWrap.find('#slideshow');
 
         // add slider 1
         /* 
@@ -156,27 +160,29 @@ jQuery( document ).ready(function($) {
             .find('.container')
             .first().addClass( "slideshow" ); */
 
-        let slider = '<div class="slider-content">2</div>';
-        // slider 2
-        headerContentWrap.append(slider);            
+        if(slideshow) {
+            let slider = '<div>2</div>';
+            // slider 2
+            slideshow.append(slider);            
 
-        slider = '<div class="slider-content">3</div>';
-        // slider 3
-        headerContentWrap.append(slider);            
+            slider = '<div>3</div>';
+            // slider 3
+            slideshow.append(slider);            
 
-        slider = '<div class="slider-content">4</div>';
-        // slider 4
-        headerContentWrap.append(slider);      
-        
-        setInterval(function() {
-            //$('#slideshow > div:first')
-            $('#slideshow > .slider-content:first')
-              .fadeOut(1000)
-              .next()
-              .fadeIn(500)
-              .end()
-              .appendTo('#slideshow');
-          }, 3000);
+            slider = '<div>4</div>';
+            // slider 4
+            slideshow.append(slider);      
+            
+            setInterval(function() {
+                //$('#slideshow > div:first')
+                $('#slideshow > div:first')
+                .fadeOut(1000)
+                .next()
+                .fadeIn(500)
+                .end()
+                .appendTo('#slideshow');
+            }, 3000);
+        }
 
         // add button
         const button = '<div class="container" style="margin-top: 50px"><button id="askQuestion" type="button" class="btn btn-success" style="font-size: 16px;">Ask Question</button></div>';
