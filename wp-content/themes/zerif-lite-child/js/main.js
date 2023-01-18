@@ -150,7 +150,7 @@ jQuery( document ).ready(function($) {
         headerContentWrap.css({'min-height':'600px'});
         //headerContentWrap.attr("id", "slideshow");
 
-        headerContentWrap.find('.container').first().wrap('<div id="slideshow"></div>');
+        headerContentWrap.find('.container').first().wrap('<div id="slideshow" style="height: 170px"></div>');
 
         const slideshow = headerContentWrap.find('#slideshow');
 
@@ -176,12 +176,12 @@ jQuery( document ).ready(function($) {
             setInterval(function() {
                 //$('#slideshow > div:first')
                 $('#slideshow > div:first')
-                .fadeOut(1000)
+                .fadeOut(2000)
                 .next()
-                .fadeIn(500)
+                .fadeIn(2000)
                 .end()
                 .appendTo('#slideshow');
-            }, 3000);
+            }, 5000);
         }
 
         // add button
