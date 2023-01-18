@@ -161,15 +161,15 @@ jQuery( document ).ready(function($) {
             .first().addClass( "slideshow" ); */
 
         if(slideshow) {
-            let slider = '<div><div class="container"><h1 class="intro-text">WE DELIVER INNOVATIVE SOFTWARE SOLUTIONS TO GROW YOUR BUSINESS</h1><h4 style="color:#FFF;width: 50%; margin-left: auto; margin-right: auto;">We digitiazlize your business and leverage latest cloud technologies, make your business secured and scalable.</h4></div></div>';
+            let slider = '<div><h1 class="intro-text">WE DELIVER INNOVATIVE SOFTWARE SOLUTIONS TO GROW YOUR BUSINESS</h1><h4 style="color:#FFF;width: 50%; margin-left: auto; margin-right: auto;">We digitiazlize your business and leverage latest cloud technologies, make your business secured and scalable.</h4></div>';
             // slider 2
             slideshow.append(slider);            
 
-            slider = '<div><div class="container"><h1 class="intro-text">WE DELIVER INNOVATIVE SOFTWARE SOLUTIONS TO GROW YOUR BUSINESS</h1><h4 style="color:#FFF;width: 50%; margin-left: auto; margin-right: auto;">We digitiazlize your business and leverage latest cloud technologies, make your business secured and scalable.</h4></div></div>';
+            slider = '<div><h1 class="intro-text">WE DELIVER INNOVATIVE SOFTWARE SOLUTIONS TO GROW YOUR BUSINESS</h1><h4 style="color:#FFF;width: 50%; margin-left: auto; margin-right: auto;">We digitiazlize your business and leverage latest cloud technologies, make your business secured and scalable.</h4></div>';
             // slider 3
             slideshow.append(slider);            
 
-            slider = '<div><div class="container"><h1 class="intro-text">WE DELIVER INNOVATIVE SOFTWARE SOLUTIONS TO GROW YOUR BUSINESS</h1><h4 style="color:#FFF;width: 50%; margin-left: auto; margin-right: auto;">We digitiazlize your business and leverage latest cloud technologies, make your business secured and scalable.</h4></div></div>';
+            slider = '<div><h1 class="intro-text">WE DELIVER INNOVATIVE SOFTWARE SOLUTIONS TO GROW YOUR BUSINESS</h1><h4 style="color:#FFF;width: 50%; margin-left: auto; margin-right: auto;">We digitiazlize your business and leverage latest cloud technologies, make your business secured and scalable.</h4></div>';
             // slider 4
             slideshow.append(slider);      
             
