@@ -176,9 +176,9 @@ jQuery( document ).ready(function($) {
             setInterval(function() {
                 //$('#slideshow > div:first')
                 $('#slideshow > .container:first')
-                .fadeOut(100)
+                .fadeOut(10)
                 .next()
-                .fadeIn(100)
+                .fadeIn(300)
                 .end()
                 .appendTo('#slideshow');
             }, 4000);
