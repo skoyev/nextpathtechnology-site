@@ -176,12 +176,12 @@ jQuery( document ).ready(function($) {
             setInterval(function() {
                 //$('#slideshow > div:first')
                 $('#slideshow > .container:first')
-                .fadeOut(500)
+                .fadeOut(200)
                 .next()
-                .fadeIn(1000)
+                .fadeIn(8000)
                 .end()
                 .appendTo('#slideshow');
-            }, 5000);
+            }, 4000);
         }
 
         // add button
