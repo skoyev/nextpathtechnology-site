@@ -161,27 +161,27 @@ jQuery( document ).ready(function($) {
             .first().addClass( "slideshow" ); */
 
         if(slideshow) {
-            let slider = '<div class="container" style="display:none"><h1 class="intro-text">WE DELIVER INNOVATIVE SOFTWARE SOLUTIONS TO GROW YOUR BUSINESS</h1></div>';
+            let slider = '<div class="container" style="display:none; position: absolute"><h1 class="intro-text">WE DELIVER INNOVATIVE SOFTWARE SOLUTIONS TO GROW YOUR BUSINESS</h1></div>';
             // slider 2
             slideshow.append(slider);            
 
-            slider = '<div class="container" style="display:none"><h1 class="intro-text">WE DELIVER INNOVATIVE SOFTWARE SOLUTIONS TO GROW YOUR BUSINESS</h1></div>';
+            slider = '<div class="container" style="display:none; position: absolute"><h1 class="intro-text">WE DELIVER INNOVATIVE SOFTWARE SOLUTIONS TO GROW YOUR BUSINESS</h1></div>';
             // slider 3
             slideshow.append(slider);            
 
-            slider = '<div class="container" style="display:none"><h1 class="intro-text">WE DELIVER INNOVATIVE SOFTWARE SOLUTIONS TO GROW YOUR BUSINESS</h1></div>';
+            slider = '<div class="container" style="display:none; position: absolute"><h1 class="intro-text">WE DELIVER INNOVATIVE SOFTWARE SOLUTIONS TO GROW YOUR BUSINESS</h1></div>';
             // slider 4
             slideshow.append(slider);      
             
             setInterval(function() {
                 //$('#slideshow > div:first')
                 $('#slideshow > .container:first')
-                .fadeOut(10)
+                .fadeOut(1000)
                 .next()
-                .fadeIn(300)
+                .fadeIn(1000)
                 .end()
                 .appendTo('#slideshow');
-            }, 4000);
+            }, 3000);
         }
 
         // add button
