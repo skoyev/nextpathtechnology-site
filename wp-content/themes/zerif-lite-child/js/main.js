@@ -150,7 +150,7 @@ jQuery( document ).ready(function($) {
         headerContentWrap.css({'min-height':'600px'});
         //headerContentWrap.attr("id", "slideshow");
 
-        headerContentWrap.find('.container').first().attr('style','position: absolute');
+        headerContentWrap.find('.container').first().attr('style','position: absolute; width: 100%');
         headerContentWrap.find('.container').first().wrap('<div id="slideshow" style="height: 240px"></div>');
 
         const slideshow = headerContentWrap.find('#slideshow');
