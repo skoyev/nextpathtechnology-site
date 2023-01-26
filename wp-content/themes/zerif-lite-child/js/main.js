@@ -162,15 +162,15 @@ jQuery( document ).ready(function($) {
             .first().addClass( "slideshow" ); */
 
         if(slideshow) {
-            let slider = '<div class="container" style="display:none; position: absolute"><h1 class="intro-text">REMODEL YOUR ORGANIZATION TO ACHIEVE YOUR BUSINESS DIGITAL TRANSFORMATION</h1></div>';
+            let slider = '<div class="container" style="display:none; position: absolute; width: 100%"><h1 class="intro-text">REMODEL YOUR ORGANIZATION TO ACHIEVE YOUR BUSINESS DIGITAL TRANSFORMATION</h1></div>';
             // slider 2
             slideshow.append(slider);            
 
-            slider = '<div class="container" style="display:none; position: absolute"><h1 class="intro-text">TRANSFORM YOUR BUSINESS TO MODERN CLOUD DATA PLATFORM SERVICES</h1></div>';
+            slider = '<div class="container" style="display:none; position: absolute; width: 100%"><h1 class="intro-text">TRANSFORM YOUR BUSINESS TO MODERN CLOUD DATA PLATFORM SERVICES</h1></div>';
             // slider 3
             slideshow.append(slider);            
 
-            slider = '<div class="container" style="display:none; position: absolute"><h1 class="intro-text">ANALYZE YOUR BUSINESS DATA BY BRINGING SECURED DATA ALALYTICAL BUSINESS SOLUTIONS</h1></div>';
+            slider = '<div class="container" style="display:none; position: absolute; width: 100%"><h1 class="intro-text">ANALYZE YOUR BUSINESS DATA BY BRINGING SECURED DATA ALALYTICAL BUSINESS SOLUTIONS</h1></div>';
             // slider 4
             slideshow.append(slider);      
             
