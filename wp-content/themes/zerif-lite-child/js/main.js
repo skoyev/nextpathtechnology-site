@@ -151,7 +151,7 @@ jQuery( document ).ready(function($) {
         //headerContentWrap.attr("id", "slideshow");
 
         headerContentWrap.find('.container').first().attr('style','position: absolute');
-        headerContentWrap.find('.container').first().wrap('<div id="slideshow" style="height: 170px"></div>');
+        headerContentWrap.find('.container').first().wrap('<div id="slideshow" style="height: 240px"></div>');
 
         const slideshow = headerContentWrap.find('#slideshow');
 
@@ -182,7 +182,7 @@ jQuery( document ).ready(function($) {
                 .fadeIn(1000)
                 .end()
                 .appendTo('#slideshow');
-            }, 3000);
+            }, 6000);
         }
 
         // add button
