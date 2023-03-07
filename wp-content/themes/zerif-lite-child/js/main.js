@@ -15,10 +15,14 @@ jQuery( document ).ready(function($) {
         lastMenuLi.css({'border-top':'none'});
     }
 
-    // services section
+    const baseurl = window.location.origin + '/wp-content/uploads';    
+
+    // services section 
     const services = $('#services');
     if(services){
-        let service1 = '<div class="col-md-3">1</div>';
+        var img1   = baseurl + "/2020/01/software_healthcare-solutions.jpg";
+
+        let service1 = '<div class="col-md-3" style="background-image: url(' + img1+ '); height: 90px;margin-top:-10px;background-repeat:no-repeat;">1</div>';
         let service2 = '<div class="col-md-3">2</div>';
         let service3 = '<div class="col-md-3">3</div>';
         let servicesCnt = `<div class="row">${service1}${service2}${service3}</div>`;
@@ -209,7 +213,7 @@ jQuery( document ).ready(function($) {
     $('.about-us').find('.container').find('.row').hide();
 
     //var baseurl = "<?php echo wp_upload_dir()['baseurl'] ?>";
-    const baseurl = window.location.origin + '/wp-content/uploads';
+    //const baseurl = window.location.origin + '/wp-content/uploads';
     var link1   = baseurl + "/2020/01/software_healthcare-solutions.jpg";
     var link2   = baseurl + "/2020/01/software_development_transportation-automotive.jpg";
     var link3   = baseurl + "/2017/07/finance-banking-home.jpg";
