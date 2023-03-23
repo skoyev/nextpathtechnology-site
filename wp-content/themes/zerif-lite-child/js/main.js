@@ -22,9 +22,9 @@ jQuery( document ).ready(function($) {
     if(services){
         var img1   = baseurl + "/2020/01/software_healthcare-solutions.jpg";
 
-        let service1 = '<div class="col-md-3" style="background-image: url(' + img1+ '); height: 360px; background-repeat:no-repeat;">1</div>';
-        let service2 = '<div class="col-md-3 col-md-offset-1" style="background-image: url(' + img1+ '); height: 360px; background-repeat:no-repeat;">2</div>';
-        let service3 = '<div class="col-md-3 col-md-offset-1" style="background-image: url(' + img1+ '); height: 360px; background-repeat:no-repeat;">3</div>';
+        let service1 = '<div class="col-md-3 col-sm-offset-1" style="background-image: url(' + img1+ '); height: 360px; background-repeat:no-repeat;">1</div>';
+        let service2 = '<div class="col-md-3 col-sm-offset-1" style="background-image: url(' + img1+ '); height: 360px; background-repeat:no-repeat;">2</div>';
+        let service3 = '<div class="col-md-3 col-sm-offset-1" style="background-image: url(' + img1+ '); height: 360px; background-repeat:no-repeat;">3</div>';
 
         let servicesCnt = `<div class="row">${service1}${service2}${service3}</div>`;
         services.html(servicesCnt);
