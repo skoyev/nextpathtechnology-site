@@ -40,8 +40,13 @@ jQuery( document ).ready(function($) {
 
     const focus = $('#focus')
     if(focus){
-        focus.css({'padding-top':'30px'})
+        focus.css({'padding-top':'40px'})
     }
+
+    const aboutus = $('#aboutus')
+    if(aboutus){
+        aboutus.css({'padding-top':'40px'})
+    }    
 
     $('.entry-title').hide();
     var contactUs = '<div id="mncontactfrm-header"><h3 class="sec-title" style="margin-left: auto;width: 300px;margin-right: auto;">HOW CAN WE HELP YOU?</h3>';
