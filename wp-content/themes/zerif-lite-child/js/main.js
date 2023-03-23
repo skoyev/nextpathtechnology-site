@@ -35,6 +35,12 @@ jQuery( document ).ready(function($) {
         servicesCnt += `<div class="row">${service4}${service5}${service6}</div>`;
 
         services.html(servicesCnt);
+        services.css({'margin-top':'25px'})
+    }
+
+    const focus = $('#focus')
+    if(focus){
+        focus.css({'padding-top':'30px'})
     }
 
     $('.entry-title').hide();
