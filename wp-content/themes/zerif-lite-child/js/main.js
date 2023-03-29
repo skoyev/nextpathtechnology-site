@@ -15,6 +15,9 @@ jQuery( document ).ready(function($) {
         lastMenuLi.css({'border-top':'none'});
     }
 
+    $('.section-header h2').css({'color':'#020202 !important'})
+    $('.section-header .section-legend').css({'color':'#020202 !important'})
+
     const baseurl = window.location.origin + '/wp-content/uploads';    
 
     // services section 
@@ -40,12 +43,12 @@ jQuery( document ).ready(function($) {
 
     const focus = $('#focus')
     if(focus){
-        focus.css({'padding-top':'40px'})
+        focus.css({'padding-top':'40px', 'background':'rgb(244, 244, 244)'})
     }
 
     const aboutus = $('#aboutus')
     if(aboutus){
-        aboutus.css({'padding-top':'40px'})
+        aboutus.css({'padding-top':'40px', 'background':'#FFFFFF'})
     }    
 
     $('.entry-title').hide();
