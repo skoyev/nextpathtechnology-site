@@ -43,12 +43,12 @@ jQuery( document ).ready(function($) {
 
     const focus = $('#focus')
     if(focus){
-        focus.css({'padding-top':'40px', 'background':'rgb(244, 244, 244)'})
+        focus.css({'padding-top':'40px', 'background':'rgb(244, 244, 244) !important'})
     }
 
     const aboutus = $('#aboutus')
     if(aboutus){
-        aboutus.css({'padding-top':'40px', 'background':'#FFFFFF'})
+        aboutus.css({'padding-top':'40px', 'background':'#FFFFFF !important'})
     }    
 
     $('.entry-title').hide();
