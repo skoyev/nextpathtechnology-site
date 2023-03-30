@@ -43,8 +43,8 @@ jQuery( document ).ready(function($) {
 
     const focus = $('#focus')
     if(focus){
-        focus.css({'padding-top':'40px', 'background':'#f0f0f0 !important'})
-        console.log('focus style...')
+        focus.css({'padding-top':'45px', 'background':'#f0f0f0 !important'})
+        console.log('focus style 1...')
     }
 
     const aboutus = $('#aboutus')
