@@ -15,8 +15,8 @@ jQuery( document ).ready(function($) {
         lastMenuLi.css({'border-top':'none'});
     }
 
-    $('.section-header h2').css({'color':'#020202 !important'})
-    $('.section-header .section-legend').css({'color':'#020202 !important'})
+    $('.section-header > h2').css({'color':'#020202 !important'})
+    $('.section-header > .section-legend').css({'color':'#020202 !important'})
 
     const baseurl = window.location.origin + '/wp-content/uploads';    
 
