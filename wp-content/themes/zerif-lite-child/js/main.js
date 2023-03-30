@@ -48,7 +48,7 @@ jQuery( document ).ready(function($) {
 
     const aboutus = $('#aboutus')
     if(aboutus){
-        aboutus.css({'padding-top':'40px', 'background':'#FFFFFF'})
+        aboutus.css({'background':'#FFFFFF', 'padding-top':'40px'})
     }    
 
     $('.entry-title').hide();
