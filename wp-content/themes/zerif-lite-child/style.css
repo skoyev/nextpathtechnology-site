@@ -49,6 +49,7 @@
     display: none;
 }
 
-.dark-text {
+.dark-text,
+.section-header h2 {
     color: #242424
 }
