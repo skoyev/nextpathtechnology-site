@@ -48,3 +48,7 @@
 #mncontactfrm-home > .mn-icon {
     display: none;
 }
+
+.dark-text {
+    color: #242424
+}
