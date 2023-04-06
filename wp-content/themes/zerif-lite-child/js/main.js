@@ -35,7 +35,7 @@ jQuery( document ).ready(function($) {
         let service6 = '<div class="col-md-3 col-md-offset-1 service-box">6</div>';
 
         let servicesCnt = `<div class="row">${service1}${service2}${service3}</div>`;
-        servicesCnt += `<div class="row">${service4}${service5}${service6}</div>`;
+        servicesCnt += `<div class="row" style="margin-top: 50px;">${service4}${service5}${service6}</div>`;
 
         services.html(servicesCnt);
         services.css({'margin-top':'25px'})
