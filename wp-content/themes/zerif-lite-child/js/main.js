@@ -26,13 +26,13 @@ jQuery( document ).ready(function($) {
         var img1   = baseurl + "/2020/01/software_healthcare-solutions.jpg";
         var img2   = baseurl + "/2020/01/business_solutions_facebook.jpg";
 
-        let service1 = '<div class="col-md-3 col-md-offset-1" style="background-image: url(' + img1+ '); height: 300px; background-repeat:no-repeat;">1</div>';
-        let service2 = '<div class="col-md-3 col-md-offset-1" style="background-image: url(' + img1+ '); height: 300px; background-repeat:no-repeat;">2</div>';
-        let service3 = '<div class="col-md-3 col-md-offset-1" style="background-image: url(' + img1+ '); height: 300px; background-repeat:no-repeat;">3</div>';
+        let service1 = '<div class="col-md-3 col-md-offset-1 service-box">1</div>';
+        let service2 = '<div class="col-md-3 col-md-offset-1 service-box">2</div>';
+        let service3 = '<div class="col-md-3 col-md-offset-1 service-box">3</div>';
 
-        let service4 = '<div class="col-md-3 col-md-offset-1" style="background-image: url(' + img2+ '); height: 300px; background-repeat:no-repeat;">4</div>';
-        let service5 = '<div class="col-md-3 col-md-offset-1" style="background-image: url(' + img2+ '); height: 300px; background-repeat:no-repeat;">5</div>';
-        let service6 = '<div class="col-md-3 col-md-offset-1" style="background-image: url(' + img2+ '); height: 300px; background-repeat:no-repeat;">6</div>';
+        let service4 = '<div class="col-md-3 col-md-offset-1 service-box">4</div>';
+        let service5 = '<div class="col-md-3 col-md-offset-1 service-box">5</div>';
+        let service6 = '<div class="col-md-3 col-md-offset-1 service-box">6</div>';
 
         let servicesCnt = `<div class="row">${service1}${service2}${service3}</div>`;
         servicesCnt += `<div class="row">${service4}${service5}${service6}</div>`;

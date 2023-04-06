@@ -53,3 +53,11 @@
 .section-header h2 {
     color: #242424 !important
 }
+
+.service-box {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid gray;    
+}
