@@ -26,7 +26,9 @@ jQuery( document ).ready(function($) {
         var img1   = baseurl + "/2020/01/software_healthcare-solutions.jpg";
         var img2   = baseurl + "/2020/01/business_solutions_facebook.jpg";
 
-        let service1 = '<div class="col-md-3 col-md-offset-1 service-box">1</div>';
+        const service1Content = '<div class="row"><h3>Enterprise Software Solutions</h3></div>';
+
+        let service1 = `<div class="col-md-3 col-md-offset-1 service-box">${service1Content}</div>`;
         let service2 = '<div class="col-md-3 col-md-offset-1 service-box">2</div>';
         let service3 = '<div class="col-md-3 col-md-offset-1 service-box">3</div>';
 
