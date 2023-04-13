@@ -26,15 +26,21 @@ jQuery( document ).ready(function($) {
         var img1   = baseurl + "/2020/01/software_healthcare-solutions.jpg";
         var img2   = baseurl + "/2020/01/business_solutions_facebook.jpg";
 
-        const service1Content = '<div class="row"><h3>Enterprise Software Solutions</h3></div>';
+        const service1Content = '<div><h3>Enterprise Software Solutions</h3></div>';
+        const service2Content = '<div><h3>Cloud Analytics & Machine Learning</h3></div>';
+        const service3Content = '<div><h3>Cloud Business Transformation</h3></div>';
+
+        const service4Content = '<div><h3>Hybrid Digital Transformation</h3></div>';
+        const service5Content = '<div><h3>SaaS & Application Migration</h3></div>';
+        const service6Content = '<div><h3>Cloud Security & Monitoring</h3></div>';
 
         let service1 = `<div class="col-md-3 col-md-offset-1 service-box">${service1Content}</div>`;
-        let service2 = '<div class="col-md-3 col-md-offset-1 service-box">2</div>';
-        let service3 = '<div class="col-md-3 col-md-offset-1 service-box">3</div>';
+        let service2 = `<div class="col-md-3 col-md-offset-1 service-box">${service2Content}</div>`;
+        let service3 = `<div class="col-md-3 col-md-offset-1 service-box">${service3Content}</div>`;
 
-        let service4 = '<div class="col-md-3 col-md-offset-1 service-box">4</div>';
-        let service5 = '<div class="col-md-3 col-md-offset-1 service-box">5</div>';
-        let service6 = '<div class="col-md-3 col-md-offset-1 service-box">6</div>';
+        let service4 = `<div class="col-md-3 col-md-offset-1 service-box">${service4Content}</div>`;
+        let service5 = `<div class="col-md-3 col-md-offset-1 service-box">${service5Content}</div>`;
+        let service6 = `<div class="col-md-3 col-md-offset-1 service-box">${service6Content}</div>`;
 
         let servicesCnt = `<div class="row">${service1}${service2}${service3}</div>`;
         servicesCnt += `<div class="row" style="margin-top: 50px;">${service4}${service5}${service6}</div>`;
