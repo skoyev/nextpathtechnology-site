@@ -158,6 +158,7 @@ jQuery( document ).ready(function($) {
            $('#email-msg').delay(5000).fadeOut('slow');
 
            setTimeout(()=> {
+            $('#email-msg').delay(1000).fadeIn('slow');
             $('#email-msg').html('<span style="font-size:18px;"></span>');
            }, 5000);
 		});
