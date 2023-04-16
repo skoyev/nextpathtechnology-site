@@ -116,10 +116,10 @@ jQuery( document ).ready(function($) {
 			return;
 	    }
 
-        const val1 = $('#mn_a').val();
-        const val2 = $('#mn_b').val();
+        const val1 = $('#mn_a').text();
+        const val2 = $('#mn_b').text();
 
-	    if($('#mn_answer').val() != (val1 + val2)) {
+	    if($('#mn_answer').val() != (parseInt(val1) + parseInt(val2))) {
 		    $('#email-msg').html('<span style="font-size:18px;">Please write the correct math answer.</span>');
             event.preventDefault();
 			return;
