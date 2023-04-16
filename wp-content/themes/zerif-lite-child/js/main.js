@@ -70,10 +70,12 @@ jQuery( document ).ready(function($) {
     // header
     $('#menu-menu-1').children().last().children().first().css({'background-color':'#4C508C','padding':'0px 9px', 'color':'white', 'border-radius': '8px', 'font-family': 'Arial, Helvetica, sans-serif'});
 
-    var max = 10;
-    var min = 1;
-    var value1 = Math.floor(Math.random() * (max - min + 1)) + min;
-    var value2 = Math.floor(Math.random() * (max - min + 1)) + min;
+
+    const getRandomValue = () => {
+        const max = 10;
+        const min = 1;
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
 
     // home -> contact-us section
     var contactUsEl = '<div class="mn_contact_form container" id="mn-stryle4"><div id="mncontactfrm-header" style="width: 50%; margin-left: auto; margin-right: auto; font-weight: 400; font-size: 23px; margin-top: -30px; color: #ffffff;"><h3 class="sec-title" style="margin-left: auto;width: 300px;margin-right: auto;">HOW CAN WE HELP YOU?</h3><div class="sec-info" style="font-size: 16px; line-height: 1.42857143;width: 80%; margin-left: auto; margin-right: auto; margin-bottom: 15px;">From mobile app development to digital strategy, we do it all.</div></div>';
@@ -87,7 +89,7 @@ jQuery( document ).ready(function($) {
 	contactUsEl += '</div><div class="mn-control-group"><div class="mn-control-label"><label for="user_message7">Message</label></div>';
 	contactUsEl += '<div class="form-group"><textarea rows="10" name="user_message" id="user_message7"></textarea></div>';
 	contactUsEl += '</div><p><label for="answer" style="color: #ffffff;margin-right:10px;">Write Your Answer: </label>';
-	contactUsEl += '<span id="mn_a" style="color: #ffffff;font-style:italic">' + value1 + ' + </span><span id="mn_b" style="color: #ffffff;font-style:italic">' + value2 + ' = </span><input type="text" name="mn_answer" id="mn_answer" value="" maxlength="4" style="border-radius: 3px; width:60px; margin:0 5px;" required="required"><small style="color: #ffffff;"></small>';
+	contactUsEl += '<span id="mn_a" style="color: #ffffff;font-style:italic">' + getRandomValue() + ' + </span><span id="mn_b" style="color: #ffffff;font-style:italic">' + getRandomValue() + ' = </span><input type="text" name="mn_answer" id="mn_answer" value="" maxlength="4" style="border-radius: 3px; width:60px; margin:0 5px;" required="required"><small style="color: #ffffff;"></small>';
 	contactUsEl += '</p><p id="mn_contact_sending_status" style="display:none;"></p><p>';
 	contactUsEl += '<input type="hidden" name="mn_save_data" id="" value="0"><div class="mn-control-group"><input class="form-control" type="submit" name="mn_contact_submit" id="mn_contact_submit" value="Submit Request" style="padding-top: 8px; background-color:#0CABE5; width:100%; font-weight: bold;"></div>';
 	contactUsEl += '</p><div style="color: #ffffff" id="email-msg"></div></form></div>';
@@ -114,7 +116,10 @@ jQuery( document ).ready(function($) {
 			return;
 	    }
 
-	    if($('#mn_answer').val() != (value1 + value2)) {
+        const val1 = $('#mn_a').val();
+        const val2 = $('#mn_b').val();
+
+	    if($('#mn_answer').val() != (val1 + val2)) {
 		    $('#email-msg').html('<span style="font-size:18px;">Please write the correct math answer.</span>');
             event.preventDefault();
 			return;
@@ -142,6 +147,10 @@ jQuery( document ).ready(function($) {
 			$('#user_message7').val('');
 			$('#user_subject6').val('');
 			$('#mn_answer').val('');
+
+            $('#mn_a').text(getRandomValue());
+            $('#mn_b').text(getRandomValue());
+
 			$('#email-msg').html('<span style="font-size:18px;">Thank you for your request. We will reply shortly.</span>');
 		   } else {
 			$('#email-msg').html('<span style="font-size:18px;">There was an error while sending your request.</span>');
