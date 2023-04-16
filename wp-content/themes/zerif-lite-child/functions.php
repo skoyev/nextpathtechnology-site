@@ -39,7 +39,7 @@ function get_data() {
     global $email_key;  
 
     if($_POST['email_key'] === $email_key) {
-        $to_email = 'info@nextpathtechnology.com';
+        $to_email = 'support@nextpathtechnology.com';
         $title    = $_POST['user_subject'];
         $headers  = array('From: '.$_POST['user_name'].' <'.$_POST['user_email'].'>');
         $message  = $_POST['user_message'];
