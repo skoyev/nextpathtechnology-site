@@ -129,7 +129,7 @@ jQuery( document ).ready(function($) {
                      'user_subject': $('#user_subject6').val(), 
                      'mn_answer': 9, 
                      'mn_save_data': 0, 
-                     'admin_email':'info@nextpathtechnology.com', 
+                     'admin_email':'support@nextpathtechnology.com', 
                      'mn_captcha':1, 
                      'email_key': email_key,
                      'mn_confirmation_mail':1};
