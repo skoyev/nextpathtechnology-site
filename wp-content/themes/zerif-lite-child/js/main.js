@@ -156,8 +156,10 @@ jQuery( document ).ready(function($) {
 			$('#email-msg').html('<span style="font-size:18px;">There was an error while sending your request.</span>');
 		   }
            $('#email-msg').delay(5000).fadeOut('slow');
-           $('#email-msg').delay(5000).html('<span style="font-size:18px;"></span>');
-           $('#email-msg').delay(5000).fadeIn('slow');
+
+           setTimeout(()=> {
+            $('#email-msg').html('<span style="font-size:18px;"></span>');
+           }, 5000);
 		});
 
   		event.preventDefault();
