@@ -26,7 +26,14 @@ jQuery( document ).ready(function($) {
         var img1   = baseurl + "/2020/01/software_healthcare-solutions.jpg";
         var img2   = baseurl + "/2020/01/business_solutions_facebook.jpg";
 
-        const service1Content = '<div><h3>Enterprise Software Solutions</h3></div>';
+        let service1Content = '<div><h3>Enterprise Software Solutions</h3></div>';
+        service1Content += '<div><ul><li>API Development</li>';
+        service1Content += '<li>Application Development</li>';
+        service1Content += '<li>Application Cloud Migration (AWS, Azure, GCP)</li>';
+        service1Content += '<li>Custion Software Services & Deployment Automation</li>';
+        service1Content += '<li>Startup & MVP Services</li>';
+        service1Content += '</ul></div>';
+
         const service2Content = '<div><h3>Cloud Analytics & Machine Learning</h3></div>';
         const service3Content = '<div><h3>Cloud Business Transformation</h3></div>';
 
