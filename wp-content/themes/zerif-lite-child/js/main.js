@@ -29,12 +29,15 @@ jQuery( document ).ready(function($) {
         let service1Content = '<div><h3>Enterprise Software Solutions</h3></div>';
         service1Content += '<div><ul><li>API Development</li>';
         service1Content += '<li>Application Development</li>';
-        service1Content += '<li>Application Cloud Migration (AWS, Azure, GCP)</li>';
+        service1Content += '<li>Application Cloud Migration (AWS, Azure, Google)</li>';
         service1Content += '<li>Custion Software Services & Deployment Automation</li>';
-        service1Content += '<li>Startup & MVP Services</li>';
+        service1Content += '<li>Cloud SaaS & MVP Services</li>';
         service1Content += '</ul></div>';
 
-        const service2Content = '<div><h3>Cloud Analytics & Machine Learning</h3></div>';
+        let service2Content = '<div><h3>Cloud Analytics & Machine Learning</h3></div>';
+        service2Content += '<div><ul><li>Data Analytics Development & Modernization</li>';
+        service2Content += '</ul></div>';
+
         const service3Content = '<div><h3>Cloud Business Transformation</h3></div>';
 
         const service4Content = '<div><h3>Hybrid Digital Transformation</h3></div>';

@@ -61,3 +61,8 @@
     border-radius: 15px;
     border: 1px solid gray;    
 }
+
+.service-box ul li {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
