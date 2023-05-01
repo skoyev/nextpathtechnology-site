@@ -36,6 +36,11 @@ jQuery( document ).ready(function($) {
 
         let service2Content = '<div><h3>Cloud Analytics & Machine Learning</h3></div>';
         service2Content += '<div><ul><li>Data Analytics Development & Modernization</li>';
+        service2Content += '<li>Machine Learning Model Development</li>';
+        service2Content += '<li>Data Engineering</li>';
+        service2Content += '<li>Data Analysis</li>';
+        service2Content += '<li>Automate Business Processes</li>';
+        service2Content += '<li>Build Predictive Analytics</li>'
         service2Content += '</ul></div>';
 
         const service3Content = '<div><h3>Cloud Business Transformation</h3></div>';
