@@ -71,3 +71,8 @@
     font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
     font-size: 14px;
 }
+
+.column-style {
+    margin-left: 10px;
+    margin-top: 20px;
+}

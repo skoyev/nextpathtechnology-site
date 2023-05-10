@@ -27,7 +27,7 @@ jQuery( document ).ready(function($) {
         var img2   = baseurl + "/2020/01/business_solutions_facebook.jpg";
 
         let service1Content = '<div><h3>Enterprise Software Solutions</h3></div>';
-        service1Content += '<div class="font1"><ul><li>API Development</li>';
+        service1Content += '<div class="font1"><ul class="column-style"><li>API Development</li>';
         service1Content += '<li>Application Development</li>';
         service1Content += '<li>Application Cloud Migration (AWS, Azure, Google)</li>';
         service1Content += '<li>Custion Software Services & Deployment Automation</li>';
@@ -35,7 +35,7 @@ jQuery( document ).ready(function($) {
         service1Content += '</ul></div>';
 
         let service2Content = '<div><h3>Cloud Analytics & Machine Learning</h3></div>';
-        service2Content += '<div class="font1"><ul><li>Data Analytics Development & Modernization</li>';
+        service2Content += '<div class="font1"><ul class="column-style"><li>Data Analytics Development & Modernization</li>';
         service2Content += '<li>Machine Learning Model Development</li>';
         service2Content += '<li>Data Engineering</li>';
         service2Content += '<li>Data Analysis</li>';
