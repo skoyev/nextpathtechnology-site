@@ -27,7 +27,7 @@ jQuery( document ).ready(function($) {
         var img2   = baseurl + "/2020/01/business_solutions_facebook.jpg";
 
         let service1Content = '<div><h3>Enterprise Software Solutions</h3></div>';
-        service1Content += '<div><ul><li>API Development</li>';
+        service1Content += '<div class="font1"><ul><li>API Development</li>';
         service1Content += '<li>Application Development</li>';
         service1Content += '<li>Application Cloud Migration (AWS, Azure, Google)</li>';
         service1Content += '<li>Custion Software Services & Deployment Automation</li>';
@@ -35,7 +35,7 @@ jQuery( document ).ready(function($) {
         service1Content += '</ul></div>';
 
         let service2Content = '<div><h3>Cloud Analytics & Machine Learning</h3></div>';
-        service2Content += '<div><ul><li>Data Analytics Development & Modernization</li>';
+        service2Content += '<div class="font1"><ul><li>Data Analytics Development & Modernization</li>';
         service2Content += '<li>Machine Learning Model Development</li>';
         service2Content += '<li>Data Engineering</li>';
         service2Content += '<li>Data Analysis</li>';
@@ -44,7 +44,7 @@ jQuery( document ).ready(function($) {
         service2Content += '</ul></div>';
 
         let service3Content = '<div><h3>Cloud Business Transformation</h3></div>';
-        service3Content += '<div>To help you meet your Business Needs, we employ a series of industry-agnostic transformation patterns, as well as best-in-class frameworks, assets, and accelerators, to help you understand your specific issues and develop a road map to leverage cloud to create your customized, scalable digital business transformation solution.</div>';
+        service3Content += '<div style="text-align:left;" class="font1">To help you meet your Business Needs, we employ a series of industry-agnostic transformation patterns, as well as best-in-class frameworks, assets, and accelerators, to help you understand your specific issues and develop a road map to leverage cloud to create your customized, scalable digital business transformation solution.</div>';
 
         const service4Content = '<div><h3>Hybrid Digital Transformation</h3></div>';
         const service5Content = '<div><h3>SaaS & Application Migration</h3></div>';

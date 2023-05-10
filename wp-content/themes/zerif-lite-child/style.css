@@ -66,3 +66,8 @@
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.font1 {
+    font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+}
