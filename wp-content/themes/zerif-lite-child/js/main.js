@@ -43,7 +43,8 @@ jQuery( document ).ready(function($) {
         service2Content += '<li>Build Predictive Analytics</li>'
         service2Content += '</ul></div>';
 
-        const service3Content = '<div><h3>Cloud Business Transformation</h3></div>';
+        let service3Content = '<div><h3>Cloud Business Transformation</h3></div>';
+        service3Content += '<div>To help you meet your Business Needs, we employ a series of industry-agnostic transformation patterns, as well as best-in-class frameworks, assets, and accelerators, to help you understand your specific issues and develop a road map to leverage cloud to create your customized, scalable digital business transformation solution.</div>';
 
         const service4Content = '<div><h3>Hybrid Digital Transformation</h3></div>';
         const service5Content = '<div><h3>SaaS & Application Migration</h3></div>';
